@@ -21,7 +21,8 @@ google_analytics_id      : HUDkBMUAAAAJ
 
 # Site Author
 author:
-  name             : "Zecheng Tang (汤泽成)"
+  name             : "Zecheng Tang"
+  zh_name          : "汤泽成"
   avatar           : "images/my_image.jpg"
   bio              : "Soochow University"
   location         : "China"

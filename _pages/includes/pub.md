@@ -14,9 +14,9 @@ The code for my publications are all available at [my github homepage](https://g
 
 
 ### Preprint
-- ``Sep 2023`` [OpenBT5: An Open-Sourced 15B Bilingual Flan-T5 Model Pre-trained from Scratch](), **Zecheng Tang<sup>\*</sup> (Student Leader)**, Yuyang Ding<sup>\*</sup>, Pinzheng Wang<sup>\*</sup>, Juntao Li<sup>\*</sup>, et al. \| Code and Technique Report are coming soon ...
 - ``Aug 2023`` [Detoxify Language Model Step-by-Step](https://arxiv.org/abs/2308.08295), **Zecheng Tang**, Keyan Zhou, Pinzheng Wang, Yuyang Ding, Juntao Li, Minzhang \| [![](https://img.shields.io/github/stars/ZetangForward/Detox-CoT?style=social&label=Github+Stars)](https://github.com/ZetangForward/Detox-CoT) [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/37d6e93ecc32c5f4e68a2273ce273c765c42805c?fields=citationCount)](https://www.semanticscholar.org/paper/7733c1117fa243c92007b2a6d45137d94d7dce77)
 - ``Mar 2023`` [Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models](https://arxiv.org/abs/2303.04671), Chenfei Wu, Shengming Yin, Weizhen Qi, Xiaodong Wang, **Zecheng Tang**, Nan Duan \| [![](https://img.shields.io/github/stars/microsoft/TaskMatrix?style=social&label=Github+Stars)](https://github.com/microsoft/TaskMatrix) \| [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Demo)](https://huggingface.co/spaces/microsoft/visual_chatgpt) [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/af997821231898a5f8d0fd78dad4eec526acabe5?fields=citationCount)](https://www.semanticscholar.org/paper/7733c1117fa243c92007b2a6d45137d94d7dce77)
 
 
 ### Work on progress
+- ``Sep 2023`` [OpenBT5: An Open-Sourced 15B Bilingual Flan-T5 Model Pre-trained from Scratch](), **Zecheng Tang<sup>\*</sup> (Student Leader)**, Yuyang Ding<sup>\*</sup>, Pinzheng Wang<sup>\*</sup>, Juntao Li<sup>\*</sup>, et al. \| Code and Technique Report are coming soon ...

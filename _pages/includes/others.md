@@ -1,4 +1,3 @@
-
 # 📖 Educations
 - *2022.09 - current*, Direct-entry Phd, Artificial Intelligence Research Institute, Soochow University, Suzhou.
 - *2018.09 - 2022.06*, Bachelor, Institute of Computer Science and Technology, Soochow University, Suzhou.

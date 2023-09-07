@@ -4,7 +4,7 @@
 - *2015.09 - 2018.06*, Jinling Middle School, Nanjing.
 
 # 💬 Invited Talks
-- *2023.5*, External Plugin Methods for Downstream Applications of Large Language Models, OPPO technical seminar, Shenzhen [\[slides\]](../../assets/my_data/Toolformer_OPPO.pdf)
+- *2023.5*, External Plugin Methods for Downstream Applications of Large Language Models, OPPO technical seminar, Shenzhen [\[slides\]](../../_data/Toolformer_OPPO.pdf)
 
 # 💻 Internships
 - *2023.01 - current*, [MSRA, NLC Group](https://www.microsoft.com/en-us/research/group/natural-language-computing/), Beijing.

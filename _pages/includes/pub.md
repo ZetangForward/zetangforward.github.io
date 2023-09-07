@@ -1,5 +1,5 @@
 
-# 💻 Research Papers
+# 💻 Publications
 
 The code for my publications are all available at [my github homepage](https://github.com/ZetangForward).
 

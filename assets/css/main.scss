@@ -107,3 +107,10 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* Dark mode styles */  
+body.dark-mode {  
+    background-color: #121212;  
+    color: #ffffff;  
+}  
+/* Add other dark mode styles for specific elements as needed */  

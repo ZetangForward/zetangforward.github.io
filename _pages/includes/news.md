@@ -4,4 +4,7 @@
     <img src='../../assets/figs/NUWALayout.gif' alt="sym" width="80%">
 </p> 
 
-- ``Sep 2023`` [OpenBA2: An Open-Sourced 15B Bilingual Asymmetric Seq2Seq Model Pre-trained from Scratch](https://arxiv.org/abs/2309.09506) Technique Report and Code are Coming Soon !!
+- ``Sep 2023`` [OpenBA: An Open-Sourced 15B Bilingual Asymmetric Seq2Seq Model Pre-trained from Scratch](https://arxiv.org/abs/2309.10706) We have released OpenBA, an open-sourced 15B bilingual asymmetric seq2seq model. The entire training process, data sources, collection, and construction are made fully open-source! [![Project Link](https://img.shields.io/github/stars/OpenNLG/OpenBA?style=social&label=Github+Stars)](https://github.com/OpenNLG/OpenBA.git)
+<p align="center"> 
+    <img src='../../assets/figs/OpenBA.png' alt="sym" width="80%">
+</p> 

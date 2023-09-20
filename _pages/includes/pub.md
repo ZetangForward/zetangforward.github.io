@@ -14,10 +14,11 @@ The code for my publications are all available at [my github homepage](https://g
 
 
 ### Preprint
+- ``Sep 2023`` [OpenBA: An Open-Sourced 15B Bilingual Asymmetric Seq2Seq Model Pre-trained from Scratch](https://arxiv.org/abs/2309.10706), Juntao Li<sup>\*</sup>, **Zecheng Tang<sup>\*</sup> (Student Leader)**, Yuyang Ding<sup>\*</sup>, Pinzheng Wang<sup>\*</sup>, et al. \| [![](https://img.shields.io/github/stars/OpenNLG/OpenBA?style=social&label=Github+Stars)](https://github.com/OpenNLG/OpenBA.git)
 - ``Sep 2023`` [LayoutNUWA: Revealing the Hidden Layout Expertise of Large Language Models](https://arxiv.org/abs/2309.09506), **Zecheng Tang**, Chenfei Wu, Juntao Li, Nan Duan \| [![](https://img.shields.io/github/stars/ProjectNUWA/LayoutNUWA?style=social&label=Github+Stars)](https://github.com/ProjectNUWA/LayoutNUWA)
 - ``Aug 2023`` [Detoxify Language Model Step-by-Step](https://arxiv.org/abs/2308.08295), **Zecheng Tang**, Keyan Zhou, Pinzheng Wang, Yuyang Ding, Juntao Li, Minzhang \| [![](https://img.shields.io/github/stars/ZetangForward/Detox-CoT?style=social&label=Github+Stars)](https://github.com/ZetangForward/Detox-CoT) [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/37d6e93ecc32c5f4e68a2273ce273c765c42805c?fields=citationCount)](https://arxiv.org/abs/2308.08295)
 - ``Mar 2023`` [Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models](https://arxiv.org/abs/2303.04671), Chenfei Wu, Shengming Yin, Weizhen Qi, Xiaodong Wang, **Zecheng Tang**, Nan Duan \| [![](https://img.shields.io/github/stars/microsoft/TaskMatrix?style=social&label=Github+Stars)](https://github.com/microsoft/TaskMatrix) \| [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Demo)](https://huggingface.co/spaces/microsoft/visual_chatgpt) [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/af997821231898a5f8d0fd78dad4eec526acabe5?fields=citationCount)](https://arxiv.org/abs/2303.04671)
 
 
-### Work on progress
-- ``Sep 2023`` [OpenBA2: An Open-Sourced 15B Bilingual Asymmetric Seq2Seq Model Pre-trained from Scratch](), **Zecheng Tang<sup>\*</sup> (Student Leader)**, Yuyang Ding<sup>\*</sup>, Pinzheng Wang<sup>\*</sup>, Juntao Li<sup>\*</sup>, et al. \| Code and Technique Report are coming soon ...
+<!-- ### Work on progress -->
+

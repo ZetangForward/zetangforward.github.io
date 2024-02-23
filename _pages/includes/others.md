@@ -1,5 +1,5 @@
 # 📖 Educations
-- *2022.09 - current*, Direct-entry Phd, Artificial Intelligence Research Institute, Soochow University, Suzhou.
+- *2022.09 - current*, Phd student, Artificial Intelligence Research Institute, Soochow University, Suzhou.
 - *2018.09 - 2022.06*, Bachelor, Institute of Computer Science and Technology, Soochow University, Suzhou.
 - *2015.09 - 2018.06*, Jinling Middle School, Nanjing.
 

@@ -7,8 +7,8 @@
 
 # Site Settings
 title                    : "Zecheng Tang (汤泽成)"
-description              : "Second-year Ph.D. student at Soochow University. Research intern at MSRA. Focusing on multimodal generation and foundation models."
-repository               : "https://github.com/CODINNLG/zecheng.eric.github.io"
+description              : "Second-year Ph.D. student at Soochow University."
+repository               : "https://github.com/ZetangForward"
 google_scholar_stats_use_cdn : true
 
 # google analytics

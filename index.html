@@ -2,1478 +2,471 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" id="view" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-	<meta name="google-site-verification" content="GxaFv2GEAd_nIt2RJk2O1uJ6vcNiCshwywxJC2v2kQE" />
-	<meta name="msvalidate.01" content="67B155C505E04C672096FC5B5891EF73" />
-	<meta name="description"
-		content="Here is Zecheng Tang's personal homepage, including CV, papers, interests and so on.">
-	<meta name="keywords" content="Zecheng Tang, ZetangForward, zecheng, Zak_Sing, 汤泽成">
-	<link rel="stylesheet" type="text/css" media="screen and (max-device-width:400px)" href="tinyScreen.css" />
-	<link rel="stylesheet" type="text/css" media="screen and (min-width: 400px)and (max-device-width: 600px)"
-		href="smallScreen.css" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<style>
-		.section {
-			margin-bottom: 10px; /* 控制每个条目之间的垂直间距 */
-		}
-	</style>
-	<!-- <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap"> -->
-	<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'"> -->
-	<!-- <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'"> -->
-	<!-- <link rel="stylesheet" href="/css/wowchemy.042e26407c9e383d96a1f26d6787c686.css" /> -->
-	<!-- <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" > -->
-	<!-- <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled> -->
-	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'"> -->
-	<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
-	<!-- <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/6.5.1/css/font-awesome.css"> -->
-	<!-- <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="icon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="icon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="icon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="icon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="icon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="icon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="icon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png"> -->
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/icon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="180x180" href="assets/icon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-16x16.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="assets/icon/android-chrome-192x192.png">
-	<link rel="icon" type="image/png" sizes="512x512" href="assets/icon/android-chrome-512x512.png">
-	<link rel="manifest" href="icon/manifest.json">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="assets/icon/favicon-32x32.pngg">
-	<meta name="theme-color" content="#ffffff">
-	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-	<title>Zecheng Tang | Homepage</title>
-	<style type="text/css">
-		h1 {
-			text-align: center;
-			font-size: 1.5em;
-		}
-	</style>
-	<script async defer src="https://buttons.github.io/buttons.js"></script>
+    <title>Zecheng Tang Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Zecheng Tang's personal homepage.">
+    <meta name="keywords" content="Zecheng Tang, ZetangForward, zecheng, AI, NLP, Long Context">
+    <link rel="icon" type="image/png" href="assets/icon/logo.png">
+    
+    <style>
+        body {
+            background-image: linear-gradient(#e66465, #9198e5);
+            background-attachment: fixed;
+            margin: 0;
+            font-family: 'Georgia', 'Times New Roman', serif;
+            color: #333;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        a {
+            color: #1a0dab; 
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 550pt; 
+            margin: 30px auto;
+            border: 1px solid gray;
+            padding: 25px 40px;
+            background: white;
+            box-shadow: 1px 1px 10px #22222277;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            font-size: 15px;
+        }
+
+        h1 {
+            font-family: 'Georgia', serif;
+            margin-bottom: 5px;
+            font-size: 2.2em;
+        }
+
+        h2 {
+            font-family: 'Georgia', serif;
+            font-size: 1.4em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            color: #000;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        .nav-links {
+            font-size: 0.95em;
+        }
+        
+        .nav-links a {
+            margin: 0 3px;
+        }
+
+        .portrait {
+            float: right;
+            width: 100px;         
+            height: auto;         
+            margin-left: 25px;
+            margin-bottom: 15px;
+            margin-top: 10px;
+            border: 1px solid #ccc; 
+            padding: 4px;          
+            background: white;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.15);
+        }
+
+
+        .experience-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between; 
+        }
+        
+        .experience-item {
+            width: 48%; 
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+
+        .exp-title {
+            font-weight: bold;
+            color: #000;
+            display: block;
+        }
+
+        .exp-role {
+            font-style: italic;
+            color: #444;
+        }
+
+        .exp-rep {
+            display: block;
+            font-size: 0.88em; 
+            color: #666;      
+            margin-top: 4px;
+            line-height: 1.4;
+        }
+
+        .exp-rep a {
+            color: #666 !important;
+            text-decoration: underline !important;
+            text-underline-offset: 2px;
+        }
+        .exp-rep a:hover {
+            color: #444 !important;
+            text-decoration: underline !important;
+        }
+        
+        
+        @media (max-width: 600px) {
+            .portrait {
+                float: none;
+                display: block;
+                margin: 0 auto 20px auto;
+                width: 160px;
+            }
+            .container {
+                padding: 15px 20px;
+                margin: 0;
+                border: none;
+            }
+            .experience-item {
+                width: 100%; 
+                margin-bottom: 25px;
+            }
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+
+        .me {
+            font-weight: 500; /*  normal, lighter, bolder, 100-900 */
+            color: #000;
+            text-decoration: underline;
+            font-style: italic;
+        }
+        
+        .date-badge {
+            font-weight: bold;
+            color: #555;
+            font-size: 0.9em;
+        }
+
+        .links-list li {
+            list-style-type: none;
+            margin-left: -20px;
+        }
+    </style>
 </head>
 
 <body>
-	<!--     <h1>Seeking for a Master Degree...</h1>   -->
-	<br>
-</body>
 
-</html>
-
-<!DOCTYPE html>
-<html>
-
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<style media="screen" type="text/css">
-		/* 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> */
-		body {
-			border: 0pt none;
-			font-family: inherit;
-			font-size: 100%;
-			font-style: inherit;
-			font-weight: inherit;
-			margin: 0pt;
-			outline-color: invert;
-			outline-style: none;
-			outline-width: 0pt;
-			padding: 0pt;
-			vertical-align: baseline;
-		}
-
-		body {
-			position: relative;
-			margin: 3em auto 2em auto;
-			width: 68em;
-			font-family: Times New Roman, Lato, Verdana, Helvetica, sans-serif;
-			font-size: 1.0em;
-			background: #fdfdfd;
-		}
-	</style>
-	<!-- <style>
-			body {
-			  color: #333;
-			  background-color: #eee;
-			}
-			@media (prefers-color-scheme: dark) {
-			  body {
-				color: #ccc;
-				background-color: #1f1f1f;
-			  }
-			}
-		</style> -->
-	<style>
-		/* 普通模式下颜色 */
-		:root {
-			--color-bg: #f2f2f2;
-			--color-xg: #cbcbcb;
-			--color-ch: #30303a;
-			--color-btn: #f0f0fa;
-			--color-link: #3d8ee4; /*1573df*/
-			--color-border: #0b46dc;
-			--color-b: #292727;
-			--color-div: #d0d0d0;
-			--color-my: #0000ff;
-			--color-p: #0caddf;
-		}
-
-		/* 黑暗模式下颜色 */
-		:root[theme='dark'] {
-			--color-bg: #272935;
-			--color-xg: #111217;
-			--color-ch: #e3e3f1;
-			--color-btn: #30303a;
-			--color-link: #a2bfd9;
-			--color-border: #f2d3d3;
-			--color-b: #e9adad;
-			--color-div: #4b4b4b;
-			--color-my: #2d67db;
-			--color-p: #86abcb;
-		}
-
-		:root * {
-			/* 过渡动画效果 */
-			transition: background-color 0.3s, color 0.3s;
-		}
-
-		body {
-			position: relative;
-			background: linear-gradient(to bottom,
-					var(--color-bg) 0%,
-					var(--color-bg) 96.5%,
-					var(--color-xg) 96.5%,
-					var(--color-xg) 100%);
-			/*background-color: var(--color-bg);*/
-			/* transition: 0.3s; */
-		}
-
-		button {
-			position: absolute;
-			top: -1%;
-			right: -4em;
-			height: 3em;
-			width: 3em;
-			border-radius: 50%;
-			border: none;
-			outline: none;
-			background-color: var(--color-btn);
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			/* transition: 0.3s; */
-		}
-
-		a:link {
-			text-decoration: underline;
-			TEXT-DECORATION: none;
-		}
-
-		a:visited {
-			text-align: left;
-			text-decoration: underline;
-			TEXT-DECORATION: none;
-		}
-
-		a:hover {
-			color: #ec8435;
-			text-decoration: underline;
-			TEXT-DECORATION: none;
-		}
-
-		a:active {
-			color: #de123b;
-			text-decoration: none;
-		}
-
-		p,
-		b,
-		td,
-		h2,
-		i,
-		a,
-		ul,
-		ul li,
-		pre,
-		textarea {
-			color: var(--color-ch);
-			font-family: Comic Sans MS, Times, serif;
-			/* transition: 0.3s; */
-		}
-
-		.myself {
-			color: var(--color-my)
-		}
-
-		.paper {
-			color: var(--color-p)
-		}
-
-		pre {
-			font-size: 0.76em;
-		}
-
-		ul li {
-			font-size: 1.3em;
-		}
-
-		.dy {
-			color: var(--color-link);
-			font-family: Comic Sans MS, Times, serif;
-			/* transition: 0.3s; */
-		}
-
-		i,
-		a {
-			color: var(--color-link);
-			font-family: Comic Sans MS, Times, serif;
-			/* transition: 0.3s; */
-		}
-
-		.news {
-			color: var(--color-b);
-		}
-
-		textarea {
-			background-color: var(--color-bg);
-			width: 63em;
-			font-size: 0.76em;
-			resize: none;
-			border: 1.8px solid var(--color-border);
-			padding-left: 0.6em;
-			padding-top: 0.5em;
-			min-height: 100px;
-		}
-
-		textarea_div {
-			background-color: var(--color-bg);
-			resize: none;
-			width: 63em;
-			font-size: 0.76em;
-			border: 1.8px solid var(--color-border);
-			padding-left: 0.6em;
-			padding-top: 0.5em;
-			min-height: 100px;
-			overflow-x: hidden;
-			overflow-y: auto;
-
-		}
-
-		[contentEditable=true]:empty:not(:focus):before {
-			content: attr(data-text);
-		}
-
-
-		i:hover {
-			color: #eb7f7f
-		}
-
-		.aaa:hover {
-			color: #ec90c7
-		}
-
-		button>svg {
-			height: 3em;
-			width: 3em;
-			fill: var(--color-ch);
-			stroke: none;
-		}
-
-		button>svg:nth-child(2) {
-			display: none;
-		}
-
-		nav {
-			background-color: var(--color-bg);
-			padding: 10px;
-			font-family: Comic Sans MS, Times, serif;
-		}
-
-		nav a {
-			text-decoration: none;
-			color: var(--color-link);
-			padding: 10px 20px;
-			position: relative;
-			transition: all 0.3s ease;
-		}
-
-		nav a:hover {
-			text-decoration: none;
-		}
-
-		nav a::before {
-			content: "";
-			position: absolute;
-			bottom: 0;
-			left: 0;
-			width: 0;
-			height: 3px;
-			background-color: gray;
-			transition: width 0.3s ease;
-		}
-
-		nav a:hover::before {
-			width: 100%;
-		}
-
-		.divider {
-			border-top: 1px solid var(--color-div);
-			margin: 10px 0 0px 0;
-			width: 100%;
-		}
-
-		.divide {
-			border-top: 1px solid var(--color-div);
-			margin: 10px 0 -5px 0;
-		}
-
-		@media (prefers-color-scheme: dark) {
-
-			/* 普通模式下颜色 */
-			:root {
-				--color-bg: #272935;
-				--color-xg: #111217;
-				--color-ch: #e3e3f1;
-				--color-btn: #30303a;
-				--color-link: #a2bfd9;
-				--color-border: #f2d3d3;
-				--color-b: #e9adad;
-				--color-div: #4b4b4b;
-				--color-my: #2d67db;
-				--color-p: #86abcb;
-				;
-			}
-
-			/* 黑暗模式下颜色 */
-			:root[theme='dark'] {
-				--color-bg: #f2f2f2;
-				--color-xg: #cbcbcb;
-				--color-ch: #2c3e50;
-				--color-btn: #f0f0fa;
-				--color-link: #3d8ee4; /*1573df*/
-				--color-border: #0b46dc;
-				--color-b: #292727;
-				--color-div: #d0d0d0;
-				--color-my: #0000ff;
-				--color-p: #0caddf;
-			}
-		}
-	</style>
-
-	<script type="text/javascript">
-		function autoResize(id) {
-			const textArea = document.getElementById(id);
-			textArea.style.height = "auto";
-			textArea.style.height = (textArea.scrollHeight) + "px";
-		}
-	</script>
-
-	<script>
-		var _hmt = _hmt || [];
-		(function () {
-			var hm = document.createElement("script");
-			hm.src = "https://hm.baidu.com/hm.js?1ec4ad5c61857459aa78d5ee7ddee28d";
-			var s = document.getElementsByTagName("script")[0];
-			s.parentNode.insertBefore(hm, s);
-		})();
-	</script>
-	<script src="http://cdn.staticfile.org/jquery/2.0.0/jquery.min.js">
-	</script>
-
-	<script>
-		$(function () {
-			$(".bu").click(function () {
-				if ($('.bib' + $(this).attr("id")).css("display") != "none") {
-					$('.bib' + $(this).attr("id")).css("display", "none");
-				} else {
-					if ($('.ab' + $(this).attr("id")).css("display") != "none") {
-						$('.ab' + $(this).attr("id")).css("display", "none");
-					}
-					$('.bib' + $(this).attr("id")).css("display", "block");
-				}
-				const textArea = document.getElementById('mybib' + $(this).attr("id"));
-				textArea.style.height = "auto";
-				textArea.style.height = (textArea.scrollHeight) + "px";
-			})
-			$(".au").click(function () {
-				if ($('.ab' + $(this).attr("id")).css("display") != "none") {
-					$('.ab' + $(this).attr("id")).css("display", "none");
-				} else {
-					if ($('.bib' + $(this).attr("id")).css("display") != "none") {
-						$('.bib' + $(this).attr("id")).css("display", "none");
-					}
-					$('.ab' + $(this).attr("id")).css("display", "block");
-				}
-				const textArea = document.getElementById('myab' + $(this).attr("id"));
-				textArea.style.height = "auto";
-				textArea.style.height = (textArea.scrollHeight) + "px";
-			})
-		})
-
-		$(function () {
-			$.fn.autoHeight = function () {
-				function autoHeight(elem) {
-					elem.style.height = 'auto';
-					elem.scrollTop = 0; //防抖动
-					elem.style.height = elem.scrollHeight + 'px';
-				}
-				this.each(function () {
-					autoHeight(this);
-					$(this).on('keyup', function () {
-						autoHeight(this);
-					});
-				});
-			}
-			$('textarea[autoHeight]').autoHeight();
-		})
-	</script>
-</head>
-
-<body>
-	<button>
-		<svg viewBox="0 0 24 24">
-			<path
-				d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z">
-			</path>
-		</svg>
-		<svg viewBox="0 0 24 24">
-			<path
-				d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z">
-			</path>
-		</svg>
-	</button>
-	<script>
-		const root = document.documentElement;
-		const button = document.querySelector('button');
-		const svgs = document.querySelectorAll('button>svg');
-		const text = document.querySelector('p');
-
-		button.onclick = () => {
-			if (!root.hasAttribute('theme')) { // 检查当前主题
-				root.setAttribute('theme', 'dark'); // 向根节点插入theme属性，值为dark
-				// 这样页面中颜色就会匹配 :root[theme='dark'] { ... } 这一套
-				svgs[0].style.display = 'none';
-				svgs[1].style.display = 'block';
-
-			} else {
-				root.removeAttribute('theme'); // 移除根节点theme属性
-				svgs[1].style.display = 'none';
-				svgs[0].style.display = 'block';
-
-			}
-		};
-	</script>
-	<script type="text/javascript">
-		//获取设备类型
-
-		var ua = navigator.userAgent;
-
-		var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
-
-			isIphone = !ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
-
-			isAndroid = ua.match(/(Android)\s+([\d.]+)/),
-
-			isMobile = isIphone || isAndroid;
-
-		//判断
-
-		if (isMobile) {
-			//获取设备像素
-			var devicewidth = document.documentElement.clientWidth;
-			var devicewidth2 = window.screen.width;
-			console.log(devicewidth2);
-			console.log(devicewidth);
-			//按照比例 设置id为view的content值为scale，ok
-			var scale = devicewidth / 1200; //1200是我原本设计PC页面固定的大小，根据你自己页面进行修改
-			console.log(scale);
-
-			document.getElementById("view").setAttribute('content', "user-scalable=yes, width=device-width, initial-scale=" + scale);
-
-		} else {
-
-		}
-
-
-	</script>
-	<nav>
-		
-		<font size="5"><a href="#biography" target="_self">Biography</a></font>
-		<font size="5"><a href="assets/personal_cv.pdf" target="_self">CV (PDF)</a></font>
-		<font size="5"><a href="#publications" target="_self">Publication</a></font>
-		<font size="5"><a href="#preprint" target="_self">Preprint</a></font>
-		<font size="5"><a href="#awards" target="_self">Award</a></font>
-		<font size="5"><a href="#talk" target="_self">Talk</a></font>
-		<font size="5"><a href="#service" target="_self">Service</a></font>
-	</nav>
-	<!-- <hr /> -->
-	<div class="divider"></div>
-	<table align="center">
-		<!-- <tr> -->
-		<td align="center"><a href="assets/img/my.jpg" target="_self"><img border=0 style="border-radius:10em;"
-					height="228em" src="assets/img/my.jpg"></a>
-		</td> 
-		<!-- height="218em" width="198em" -->
-		<td align="center">&nbsp</td>
-		<td align="center">&nbsp</td>
-		<td align="center">
-		<td align="center">
-			<h2>
-				<font face="Roboto" size=+3>Zecheng Tang</font>&emsp;
-				<b>
-					<font face="宋体" size=+3>汤泽成</font>
-				</b>
-			</h2>
-			<p>
-				<font size=+1>
-					<font size=+2 face="Comic Sans MS">👨‍💻 Phd Candicate @ <a href="https://opennlg.cn/" target="_self">OpenNLG Group</a></font><br/>
-					<font size=+2>🎓</font> <b><a href="https://scst.suda.edu.cn/" target="_self"> <font face="Comic Sans MS">SCST, Soochow University</font> </a></b>
-					<!-- <font face="Comic Sans MS">China</font> -->
-				</font>
-			</p>
-			<p style="margin-top: -0.4cm; margin-bottom: 0.3cm;">
-				<font size=+1>
-					<font size=+2>📧</font> 
-					<b><a href="zecheng.tang@foxmail.com"><font size=+1 face="Comic Sans MS">zecheng.tang@foxmail.com</font></a></b>
-				</font>
-			</p>
-
-			<div style="display: inline-block; margin-top:0%">
-				<a href="assets/personal_cv.pdf" target="_self">
-					<!-- <font size=7><i class="fa fa-user-circle" aria-hidden="true"></i></font> -->
-					<font size=4><i class="ai ai-cv ai-3x"></i></font>
-				</a>
-			</div>
-			&emsp;
-			<!-- Google Scholar -->
-			<div style="display: inline-block; margin-top:0%">
-				<a href="https://scholar.google.com/citations?user=HUDkBMUAAAAJ&hl=zh-CN" target="_self">
-					<font size=4><i class="ai ai-google-scholar ai-3x"></i></font>
-				</a>
-			</div>
-			<!-- <div style="display: inline-block; margin-right:0.0cm"">
-					<a href=" https://scholar.google.com.hk/citations?user=sRcWOKUAAAAJ&hl=zh-CN" target="_self">
-					<img src="assets/img/google-scholar-icon.png" alt="Google Scholar" title="Google Scholar" width="40px" />
-
-					</a>
-				</div> -->
-			&emsp;
-			<!-- Semantic Scholar -->
-			<div style="display: inline-block; margin-top:0%">
-				<a href="https://www.semanticscholar.org/author/Zecheng-Tang/1576234850" target="_self">
-					<font size=4><i class="ai ai-semantic-scholar ai-3x"></i></font>
-				</a>
-			</div>
-			<!-- <div class="cropped" style="display: inline-block;">
-					<a href=" https://www.semanticscholar.org/author/Huanxuan-Liao/2232817310" target="_self">
-						<img src="assets/img/semantic-scholar-icon.png" style="position:relative;top: 20px;"
-							alt="Semantic Scholar" title="Semantic Scholar" width="220px" />
-					</a>
-				</div> -->
-			&emsp;
-			<!-- DBLP -->
-			<div style="display: inline-block; margin-top:0%">
-				<a href="https://dblp.org/pid/326/0272.html" target="_self">
-					<font size=4><i class="ai ai-dblp ai-3x"></i></font>
-				</a>
-			</div>
-			&emsp;
-
-			<!-- Zhihu -->
-			<div style="display: inline-block; margin-top:0%">
-				<a href="https://www.zhihu.com/people/zctang2000" target="_self">
-					<font size=4><i class="ai ai-zotero ai-3x"></i></font>
-				</a>
-			</div>
-			&emsp;
-			<!-- Mail -->
-			<!-- <div style="display: inline-block; margin-bottom:0.0cm">
-					<a href="mailto:huanxuanliao@gmail.com" target="_self">
-						<font size=7><i class="fa fa-envelope" aria-hidden="true"></i>
-						</font>
-					</a>
-				</div>
-				&emsp; -->
-			<!-- GitHub -->
-			<div style="display: inline-block; margin-bottom:0.0cm">
-				<a href="https://github.com/ZetangForward" target="_self">
-					<font size=4><i class="fa fa-github fa-3x" class="dy" aria-hidden="true"></i>
-					</font>
-				</a>
-			</div>
-			<!-- <div style="display: inline-block; margin-right:0.0cm">
-					<a href="https://github.com/Xnhyacinth" target="_self">
-						<img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg"
-							alt="Github" title="Github" width="48px" />
-					</a>
-				</div> -->
-			&emsp;
-			<!-- twitter -->
-			<div style="display: inline-block; margin-top:0%">
-				<a href="https://x.com/clown_ck2000" target="_self">
-					<font size=4><i aria-hidden="true" class="fa fa-twitter fa-3x"></i></font>
-				</a>
-			</div>
-		</td>
-		</td>
-		</tr>
-	</table>
-	<br />
-	
-	<div style="margin-top: 0cm" id="biography">
-		<h2>
-			<b>
-				<font face="Roboto" size=+3>📝 Biography </font> &emsp;&emsp;&emsp;&emsp;<span style="font-style: italic; color: orange; font-size: medium;">Last Update: 2025-12-08 (github.io) 2025-12-12 (online CV)</span> 
-			</b>
-		</h2>
-		<div class="divide"></div>
-		<div class="app" style="margin-top: 0em">
-			<p>
-				<font size="4.5" face="Comic Sans MS">
-					- I am a fourth-year Ph.D. candicate at the <a href="https://iai.suda.edu.cn/"><font face="Comic Sans MS">Institute of Artificial Intelligence, Soochow University</font></a>, under the supervision of <a href="https://lijuntaopku.github.io/"><font face="Comic Sans MS">Assoc. Prof. Juntao Li</font></a> and <a href="https://zhangminsuda.github.io/Pesonel-Information/"><font face="Comic Sans MS">Prof. Min Zhang</font></a>.
-					<br><br>
-
-					- Currently, I am a research intern in Tongyi-Qwen, Alibaba Cloud (阿里云，通义千问), focus on the <b>Foundation Generative Models</b>. Project: <a href="https://github.com/QwenLM/Qwen-Image"><font face="Comic Sans MS">Qwen-Image, Qwen-Image-Edit</font></a>.
-
-					<br><br>
-					- I also lead a research team <a href="https://github.com/LCM-Lab/"><font face="Comic Sans MS">LCM-Lab</font></a>, focus on: contextual faithfulness (evaluation & enhancement), efficient long-context and inference scaling, long-context system infrastructure (data & training & evaluation), and long-context reinforcement learning.
-					<!-- - Before that, I obtained the Bachelor's degree in Software Engineering (2018-2022) from Soochow University (Rank 1/380,  Outstanding Graduate and Honorary Graduate). <br><br> -->
-
-					<!-- - I was a research intern at NUWA Team, NLC Group in Microsoft Research Asia (MSRA) <img src='assets/icon/microsoft_logo.svg' style='width: 6em;'> (2023.01~2024.02) and Sora (Video Foundation Model) Team in StepFun (2024.05~2024.09). At the internship, I was honored with the "Star of Tomorrow" by MSRA and my focus was on Multimodal Generation with LLMs [Pub: Visual ChatGPT, LayoutNUWA (ICLR-2024), and StrokeNUWA (ICML-2024)]. -->
-
-					<br><br>
-					- My research lie at <b><u>Long Context Modeling and Generation</b></u>, including but not limited to <font face="Comic Sans MS" color="#00CCCC">Exploration of New Model Architectures & Modeling Mechanism, (Long-context) Alignment, and Generative-AI</font>.
-					
-					<br><br>
-					Check my <a href="#publications">publications</a> and <a href="assets/personal_cv.pdf">CV (PDF)</a> for more information !
-
-				</font>
-			</p>
-		</div>
-		
-		<div class="app" style="margin-top: 0em">
-			<div style="float:left;width:50%;">
-				<h2><font face="Roboto" size=+2>📚 Research Interests</font></h2>
-				<font size="4" face="Comic Sans MS" style="color: var(--color-ch);">
-					<div class="section">
-						&emsp;&emsp;<font size="4"><i class="fa fa-file-text-o"></i> Large-scale Pretrain of Foundation Model</font>
-					</div>
-					&emsp;&emsp;&emsp;&emsp;<i class="fa fa-angle-right" style="color: #888;"></i> 
-					<font size="3"> Image Foundation Model: <a href="https://github.com/QwenLM/Qwen-Image" target="_blank" style="text-decoration: underline; color: inherit;">Qwen-Image</a> (Github Star > 5.6K)</font>
-					<br>
-					&emsp;&emsp;&emsp;&emsp;<i class="fa fa-angle-right" style="color: #888;"></i> 
-					<font size="3"> Video Foundation Model: <a href="https://stepvideot2v.com/" target="_blank" style="text-decoration: underline; color: inherit;">Step-Video</a> (Github Star > 3.1K)</font>
-					<br>
-					&emsp;&emsp;&emsp;&emsp;<i class="fa fa-angle-right" style="color: #888;"></i> 
-					<font size="3">Language Foundation Model: <a href="https://github.com/OpenNLG/OpenBA" target="_blank" style="text-decoration: underline; color: inherit;"> OpenBA V1 & V2</a> (SCIS 2025)</font>
-					<br><br>
-					
-					<div class="section">
-						&emsp;&emsp;<font size="4"><i class="fa fa-file-text-o"></i> Long-context Model & Long-form Reasoning</font>
-					</div>
-					&emsp;&emsp;&emsp;&emsp;<i class="fa fa-angle-right" style="color: #888;"></i> 
-					<font size="3"> Benchmark: <a href="https://aclanthology.org/2025.acl-long.263/" target="_blank" style="text-decoration: underline; color: inherit;">L-CiteEval</a> (ACL 2025) <a href="https://arxiv.org/abs/2510.13276" target="_blank" style="text-decoration: underline; color: inherit;">MMLongCite</a> (Arxiv 2025)</font> 
-					<br>
-					&emsp;&emsp;&emsp;&emsp;<i class="fa fa-angle-right" style="color: #888;"></i> 
-					<font size="3"> Long-context RL: <a href="https://arxiv.org/abs/2410.18533" target="_blank" style="text-decoration: underline; color: inherit;">LOGO</a> (ICML 2025)</font>
-					<br>
-					&emsp;&emsp;&emsp;&emsp;<i class="fa fa-angle-right" style="color: #888;"></i> 
-					<font size="3"> Long-context Modeling: <a href="https://arxiv.org/abs/2510.05862" target="_blank" style="text-decoration: underline; color: inherit;">CDT</a> (Arxiv 2025)</font>
-					<br>
-					&emsp;&emsp;&emsp;&emsp;<i class="fa fa-angle-right" style="color: #888;"></i> 
-					<font size="3"> Long-context Reward: <a href="https://arxiv.org/pdf/2510.06915" target="_blank" style="text-decoration: underline; color: inherit;">LongRM</a> (Arxiv 2025)</font>
-					<br><br>
-
-					<div class="section">
-						&emsp;&emsp;<font size="4"><i class="fa fa-file-text-o"></i> Multimodal Generation</font>
-					</div>
-					&emsp;&emsp;&emsp;&emsp;<i class="fa fa-angle-right" style="color: #888;"></i> 
-					<font size="3"> Omini Prototype: <a href="https://arxiv.org/abs/2303.04671" target="_blank" style="text-decoration: underline; color: inherit;">Visual ChatGPT</a> (Github Star > 34.5K)</font>
-					<br>
-					&emsp;&emsp;&emsp;&emsp;<i class="fa fa-angle-right" style="color: #888;"></i> 
-					<font size="3"> Layout Generation: <a href="https://github.com/ProjectNUWA/LayoutNUWA" target="_blank" style="text-decoration: underline; color: inherit;">LayoutNUWA</a> (ICLR 2024)</font>
-					<br>
-					&emsp;&emsp;&emsp;&emsp;<i class="fa fa-angle-right" style="color: #888;"></i> 
-					<font size="3">SVG Generation: <a href="https://github.com/ProjectNUWA/StrokeNUWA" target="_blank" style="text-decoration: underline; color: inherit;"> StrokeNUWA</a> (ICML 2024)</font>
-					<br><br>
-					
-					<div class="section">
-						&emsp;&emsp;<font size="4"><i class="fa fa-file-text-o"></i> Efficient Model Architectures</font>
-					</div>
-					&emsp;&emsp;&emsp;&emsp;<i class="fa fa-angle-right" style="color: #888;"></i> 
-					<font size="3"> RNN-series: <a href="https://arxiv.org/abs/2410.15678" target="_blank" style="text-decoration: underline; color: inherit;">Global Mamba</a> (ACL 2025)</font>
-					<br>
-					&emsp;&emsp;&emsp;&emsp;<i class="fa fa-angle-right" style="color: #888;"></i> 
-					<font size="3">Infinite Memory LLM: <a href="https://arxiv.org/abs/2408.16967" target="_blank" style="text-decoration: underline; color: inherit;"> MemLong</a> (Arxiv 2024)</font>
-				</font>
-			</div>
-			<div style="float:left;width:50%;">
-				<h2><font face="Roboto" size=+2>📖 Education & Internship</font></h2>
-				<font size="4" face="Comic Sans MS" style="color: var(--color-ch);">
-					<!-- &emsp;&emsp;<font size="4"><i class="fa fa-briefcase"></i> Research Intern, <a href="https://www.alibabacloud.com/en/solutions/generative-ai/qwen?_p_lc=1" target="_blank" style="text-decoration: underline; color: inherit;">Tongyi Qwen Lab</a>, 2025.02-current</font>
-					<br>
-					<font size="3">&emsp;&emsp;&emsp;&emsp;</font>
-					<font size="4">Generative Foundation Model</font>
-					<br><br> -->
-					&emsp;&emsp;<font size="4"><i class="fa fa-briefcase"></i> Research Intern, <a href="https://github.com/QwenLM" target="_blank" style="text-decoration: underline; color: inherit;">Tongyi-Qwen</a>, 2025.02~2025.12</font>
-					<br>
-					<font size="3">&emsp;&emsp;&emsp;&emsp;</font>
-					<font size="4">Generative Foundation Model [Infra & Post-train]</font>
-					<br><br>
-
-					&emsp;&emsp;<font size="4"><i class="fa fa-briefcase"></i> Research Intern, <a href="https://opendatalab.github.io/index.html" target="_blank" style="text-decoration: underline; color: inherit;">Shanghai AI Lab</a>, 2024.10~2025.02</font>
-					<br>
-					<font size="3">&emsp;&emsp;&emsp;&emsp;</font>
-					<font size="4">Independent research on Long Context Modeling</font>
-					<br><br>
-
-					&emsp;&emsp;<font size="4"><i class="fa fa-briefcase"></i> Research Intern, <a href="https://platform.stepfun.com/" target="_blank" style="text-decoration: underline; color: inherit;">StepFun</a>, Sora Team, 2024.05~2024.09</font>
-					<br>
-					<font size="3">&emsp;&emsp;&emsp;&emsp;</font>
-					<font size="4">T2V Video Foundation Model</font>
-					<br><br>
-
-					&emsp;&emsp;<font size="4"><i class="fa fa-briefcase"></i> Research Intern, <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia-zh-cn/" target="_blank" style="text-decoration: underline; color: inherit;">MSRA</a>, NLC Group, 2023.01~2024.02</font>
-					<br>
-					<font size="3">&emsp;&emsp;&emsp;&emsp;</font>
-					<font size="4">Symbolic Representation in Multimodal LLMs</font>
-					<br><br>
-
-					&emsp;&emsp;<font size="4"><i class="fa fa-graduation-cap"></i> Phd candicate, Computer Science, 2022-current</font>
-					<br>
-					<font size="3">&emsp;&emsp;&emsp;&emsp;</font>
-					<font size="4">Institute of Artificial Intelligence, Soochow University</font>
-					<br><br>
-					&emsp;&emsp;<font size="4"><i class="fa fa-graduation-cap"></i> B.Eng., Software Engineering, 2018-2022</font>
-					<br>
-					<font size="3">&emsp;&emsp;&emsp;&emsp;</font>
-					<font size="4">School of Computer Science, Soochow University</font>
-				</font>
-			</div>
-			<div style="clear: both;"></div>
-		</div>
-	</div>
-
-	
-	<div style="margin-top: 3em" id="news">
-		<h2>
-			<b>
-				<font face="Roboto" size=+3>🔥 News </font>
-			</b>
-		</h2>
-		<div class="divide"></div>
-			<ul>
-				<!-- <span style="font-family: 'Brush Script MT', cursive; font-size: 2em;">Good things take time. Wait and See.</span> -->
-
-				<li>
-					<font size="4.5" face="Comic Sans MS">Oct, 2025. We propose a Context Denoising Training strategy for long-context modeling, which provides explicit supervision over long-context processing during training through denoising objectives. Check our paper here: <a href="https://arxiv.org/abs/2510.05862" target="_self">Revisiting Long-Context Modeling from a Context Denoising Perspective</a></font> &nbsp; <br>
-
-					<div style="display: inline-block; margin-top:0.5%; width:50%">
-						<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-							<u><font size="4">Paper:</font></u>
-							<a href="https://arxiv.org/abs/2510.05862">
-								<img alt="Static Badge" src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-							</a>
-						</div>
-						&nbsp;
-						<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-							<u><font size="4">Project:</font></u>
-							<a href="https://github.com/LCM-Lab/context-denoising-training">
-								<img alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f" style="height: 1em;">
-							</a>
-						</div>
-					</div>
-				</li>
-				<br>
-
-				<li>
-					<font size="4.5" face="Comic Sans MS">Oct, 2025. We systemly evaluate current strong reward models in long-context scenario by proposing a new benchmark: Long-RewardBench and design an efficient training strategy for scaling the context Boundary of reward models. Check our paper here: <a href="https://arxiv.org/abs/2510.06915" target="_self">LongRM: Revealing and Unlocking the Context Boundary of Reward Modeling</a></font> &nbsp; <br>
-					<div style="display: inline-block; margin-top:0.5%; width:50%">
-						<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-							<u><font size="4">Paper:</font></u>
-							<a href="https://arxiv.org/abs/2510.06915">
-								<img alt="Static Badge" src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-							</a>
-						</div>
-						&nbsp;
-						<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-							<u><font size="4">Project:</font></u>
-							<a href="https://github.com/LCM-Lab/LongRM">
-								<img alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f" style="height: 1em;">
-							</a>
-						</div>
-					</div>
-				</li>
-				<br>
-
-				<li>
-					<font size="4.5" face="Comic Sans MS">Aug, 2025. Qwen-Image is released ! Check our tech report here: <a href="https://arxiv.org/abs/2508.02324" target="_self">Qwen-Image Technical Report</a></font> &nbsp; <br>
-
-					<div style="display: inline-block; margin-top:0.5%; width:50%">	
-						<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-							<u><font size="4">Paper:</font></u>
-							<a href="https://arxiv.org/abs/2508.02324">
-								<img alt="Static Badge" src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-							</a>
-						</div>
-						&nbsp;
-						<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-							<u><font size="4">Project:</font></u>
-							<a href="https://github.com/QwenLM/Qwen-Image">
-								<img alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f" style="height: 1em;">
-							</a>
-						</div>
-						&nbsp;
-						<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-							<u><font size="4">Blog:</font></u>
-							<a href="https://qwenlm.github.io/blog/qwen-image/" target="_blank">
-								<img alt="qwen blog" src="https://img.shields.io/badge/qwen's_blog-222222?style=flat&logo=book&logoColor=white" style="height: 1em;">
-							</a>
-						</div>
-						
-					</div>
-				</li>
-				<br>
-
-				<li>
-					<font size="4.5" face="Comic Sans MS">Jul, 2025. We release LOOM-Scope, an evaluation system designed for efficient and systemly long-context evaluation. Check our demo paper here: <a href="https://arxiv.org/abs/2507.04723" target="_self">LOOM-Scope: a comprehensive and efficient LOng-cOntext Model evaluation framework</a></font> &nbsp; <br>
-					 
-					<div style="display: inline-block; margin-top:0.5%; width:50%">
-						<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-							<u><font size="4">Paper:</font></u>
-							<a href="https://arxiv.org/abs/2507.04723">
-								<img alt="Static Badge" src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-							</a>
-						</div>
-						&nbsp;
-						<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-							<u><font size="4">Project:</font></u>
-							<a href="https://loomscope.github.io/">
-								<img alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f" style="height: 1em;">
-							</a>
-						</div>
-					</div>
-				</li>
-				<br>
-
-				<!-- <li>
-					<font size="4.5" face="Comic Sans MS">Oct, 2024. I gave a tutorial about <u> Long Context Modeling in LLMs: Advances and Challenges </u> in <a
-						href="http://tcci.ccf.org.cn/conference/2024/tutorials.php" target="_self">NLPCC2024 (Hangzhou, China, Nov 1, 2024)</a></font> &nbsp; <font size="4.5" face="Comic Sans MS">[<a href="https://github.com/ZetangForward/NLPCC2024-Long-context-modeling" target="_self">Slides</a>]</font>
-				</li> -->
-
-			</ul>
-		</div>
-
-	<br />
-	<div style="margin-top: 1em;" id="">
-		<h2>
-			<b>
-				<font face="Roboto" size=+3 id="publications">📒 Selected Publications</font>
-			</b> &nbsp;
-		</h2>
-		<div class="divide"></div>
-
-		<p>
-			<font size="4" face="Comic Sans MS">Check my <a
-					href="https://scholar.google.com/citations?user=HUDkBMUAAAAJ&hl=zh-CN" target="_self">Google
-					Scholar</a> for more information! (* stands for equal contribution)
-			</font>
-		</p>
-		
-		<ul>
-			<li>
-				<font size="4">
-					[ACL 2025 Long (CCF A)] <b>L-CiteEval: Do Long-Context Models Truly Leverage Context for Responding?</b>
-					<br>
-						<b class="myself"><font size=" 4" face=" Comic Sans MS">Zecheng Tang</font></b>, Keyan Zhou, Juntao Li, Baibei Ji, Jianye Hou, Min Zhang
-					<br/>
-				</font>
-				<div style="display: inline-block; margin-top:0.5%; width:50%">
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://aclanthology.org/2025.acl-long.263/">
-							<font size="5"><i class="ai ai-arxiv ai-1x"></i></font>&nbsp;<img alt="Static Badge"
-								src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-						</a>
-					</div>
-					&nbsp;
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://github.com/ZetangForward/L-CITEEVAL">
-							<font size="2"><i class="fa fa-github-alt  fa-2x" aria-hidden="true"></i></font>&nbsp;<img
-								alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f"
-								style="height: 1em;">
-						</a>
-					</div>
-				</div>
-			</li>
-
-			<li>
-				<font size="4">
-					[ACL 2025 Long (CCF A)] <b>Revealing and Mitigating the Local Pattern Shortcuts of Mamba</b>
-					<br>
-						Wangjie You*, <b class="myself"><font size=" 4" face=" Comic Sans MS">Zecheng Tang*</font></b>, Juntao Li, Lili Yao, Min Zhang
-				</br>
-				</font>
-				<div style="display: inline-block; margin-top:0.5%; width:50%">
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://arxiv.org/abs/2410.15678">
-							<font size="5"><i class="ai ai-arxiv ai-1x"></i></font>&nbsp;<img alt="Static Badge"
-								src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-						</a>
-					</div>
-					&nbsp;
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://github.com/ZetangForward/Global_Mamba">
-							<font size="2"><i class="fa fa-github-alt  fa-2x" aria-hidden="true"></i></font>&nbsp;<img
-								alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f"
-								style="height: 1em;">
-						</a>
-					</div>
-				</div>
-			</li>
-
-			<li>
-				<font size="4">
-					[ICML 2025 (CCF A)] <b>LOGO -- Long cOntext aliGnment via efficient preference Optimization</b>
-					<br>	
-						<b class="myself"><font size=" 4" face=" Comic Sans MS">Zecheng Tang</font></b>, Zechen Sun, Juntao Li, Qiaoming Zhu, Min Zhang
-					</br>
-				</font>
-				<div style="display: inline-block; margin-top:0.5%; width:50%">
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://arxiv.org/abs/2410.18533">
-							<font size="5"><i class="ai ai-arxiv ai-1x"></i></font>&nbsp;<img alt="Static Badge"
-								src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-						</a>
-					</div>
-					&nbsp;
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://github.com/ZetangForward/LCM_Stack">
-							<font size="2"><i class="fa fa-github-alt  fa-2x" aria-hidden="true"></i></font>&nbsp;<img
-								alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f"
-								style="height: 1em;">
-						</a>
-					</div>
-				</div>
-			</li>
-
-			<li>
-				<font size="4">
-				[SCIS 2025 (CCF A)] <b>OpenBA: An Open-sourced 15B Bilingual Asymmetric seq2seq Model Pre-trained from Scratch</b>
-				<br/>
-				Juntao Li*, <b class="myself">Zecheng Tang*</b>, Yuyang Ding*, Pinzheng Wang*, Pei Guo, Wangjie You, Dan Qiao, Wenliang Chen, Guohong Fu, Qiaoming Zhu, Guodong Zhou, Min Zhang
-				</font>
-				<br>
-				<div style="display: inline-block; margin-top:0.5%; width:50%">
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://arxiv.org/abs/2309.10706">
-							<font size="5"><i class="ai ai-arxiv ai-1x"></i></font>&nbsp;<img alt="Static Badge"
-								src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-						</a>
-					</div>
-					&nbsp;
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://github.com/OpenNLG/OpenBA">
-							<font size="2"><i class="fa fa-github-alt  fa-2x" aria-hidden="true"></i></font>&nbsp;<img
-								alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f"
-								style="height: 1em;">
-						</a>
-					</div>
-				</div>
-			</li>
-
-		</ul>	
-
-
-		<ul>	
-			<li>
-				<font size="4">
-					[EMNLP 2024 Long (CCF B)] <b>CMD: a framework for Context-aware Model self-Detoxification</b>
-					<br/>
-					<b class="myself">Zecheng Tang</b>, Keyan Zhou, Juntao Li, Yuyang Ding, Pinzheng Wang, Yan Bowen, Renjie Hua, Min Zhang
-				</font>
-				<br>
-				<div style="display: inline-block; margin-top:0.5%; width:50%">
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://arxiv.org/abs/2308.08295">
-							<font size="5"><i class="ai ai-arxiv ai-1x"></i></font>&nbsp;<img alt="Static Badge"
-								src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-						</a>
-					</div>
-					&nbsp;
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://github.com/ZetangForward/CMD-Context-aware-Model-self-Detoxification">
-							<font size="2"><i class="fa fa-github-alt  fa-2x" aria-hidden="true"></i></font>&nbsp;<img
-								alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f"
-								style="height: 1em;">
-						</a>
-					</div>
-				</div>
-			</li>
-			
-			<li>
-				<font size="4">
-				[ICML 2024 (CCF A)] <b>StrokeNUWA: Tokenizing Strokes for Vector Graphic Synthesis</b>
-				<br/>
-				<b class="myself">Zecheng Tang</b>, Chenfei Wu, Zekai Zhang, Mingheng Ni, Shengming Yin, Yu Liu, Zhengyuan Yang, Lijuan Wang, Zicheng Liu, Juntao Li, Nan Duan
-				</font>
-				<br>
-				<div style="display: inline-block; margin-top:0.5%; width:50%">
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://arxiv.org/abs/2401.17093">
-							<font size="5"><i class="ai ai-arxiv ai-1x"></i></font>&nbsp;<img alt="Static Badge"
-								src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-						</a>
-					</div>
-					&nbsp;
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://github.com/ProjectNUWA/StrokeNUWA">
-							<font size="2"><i class="fa fa-github-alt  fa-2x" aria-hidden="true"></i></font>&nbsp;<img
-								alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f"
-								style="height: 1em;">
-						</a>
-					</div>
-				</div>
-			</li>
-			
-			<li>
-				<font size="4">
-				[ICLR 2024 (CAAI A)] <b>LayoutNUWA: Revealing the hidden layout expertise of large language models</b>
-				<br>
-					<b class="myself">Zecheng Tang</b>, Chenfei Wu, Juntao Li, Nan Duan
-				<br/>
-			</font>
-				<div style="display: inline-block; margin-top:0.5%; width:50%">
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://arxiv.org/abs/2309.09506">
-							<font size="5"><i class="ai ai-arxiv ai-1x"></i></font>&nbsp;<img alt="Static Badge"
-								src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-						</a>
-					</div>
-					&nbsp;
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://github.com/ProjectNUWA/LayoutNUWA">
-							<font size="2"><i class="fa fa-github-alt  fa-2x" aria-hidden="true"></i></font>&nbsp;<img
-								alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f"
-								style="height: 1em;">
-						</a>
-					</div>
-				</div>
-			</li>
-		</ul>
-		
-
-		<ul>
-			<li><font size="4">
-				[ACL 2023 Long (CCF A)] <b>Open-ended long text generation via masked language modeling</b>
-				<br/>
-				Xiaobo Liang*, <b class="myself"><font size=" 4" face=" Comic Sans MS">Zecheng Tang*</font></b>, Juntao Li, Min Zhang
-				<br>
-				</font>
-				<div style="display: inline-block; margin-top:0.5%; width:50%">
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://aclanthology.org/2023.acl-long.13/">
-							<font size="5"><i class="ai ai-arxiv ai-1x"></i></font>&nbsp;<img alt="Static Badge"
-								src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-						</a>
-					</div>
-					&nbsp;
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://github.com/ZetangForward/OpenLTG-MLM">
-							<font size="2"><i class="fa fa-github-alt  fa-2x" aria-hidden="true"></i></font>&nbsp;<img
-								alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f"
-								style="height: 1em;">
-						</a>
-					</div>
-				</div>
-			</li>
-			
-			<li><font size="4">
-				[ACL 2023 Long (CCF A)] <b>Bridging the Gap between Training and Inference for Diffusion Model</b>
-				<br/>
-				<b class="myself"><font size=" 4" face=" Comic Sans MS">Zecheng Tang</font></b>, Pinzheng Wang, Keyan Zhou, Juntao Li, Ziqiang Cao, Min Zhang
-				<br>
-				</font>
-				<div style="display: inline-block; margin-top:0.5%; width:50%">
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://aclanthology.org/2023.findings-acl.721.pdf">
-							<font size="5"><i class="ai ai-arxiv ai-1x"></i></font>&nbsp;<img alt="Static Badge"
-								src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-						</a>
-					</div>
-					&nbsp;
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://github.com/ZetangForward/Bridge_Gap_Diffusion">
-							<font size="2"><i class="fa fa-github-alt  fa-2x" aria-hidden="true"></i></font>&nbsp;<img
-								alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f"
-								style="height: 1em;">
-						</a>
-					</div>
-				</div>
-			</li>
-		</ul>
-		
-
-		<ul>
-			<li>
-			<font size="4">
-				[EMNLP 2022 (CCF B)] <b>Improving temporal generalization of pre-trained language models with lexical semantic change</b>
-				Zhaochen Su*, <b class="myself"><font size=" 4" face=" Comic Sans MS">Zecheng Tang*</font></b>, Xinyan Guan, Juntao Li, Lijun Wu, Min Zhang
-				<br>
-			</font>
-			<div style="display: inline-block; margin-top:0.5%; width:50%">
-				<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-					<a href="https://aclanthology.org/2022.emnlp-main.428/">
-						<font size="5"><i class="ai ai-arxiv ai-1x"></i></font>&nbsp;<img alt="Static Badge"
-							src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-					</a>
-				</div>
-				&nbsp;
-				<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-					<a href="https://github.com/zhaochen0110/LMLM">
-						<font size="2"><i class="fa fa-github-alt  fa-2x" aria-hidden="true"></i></font>&nbsp;<img
-							alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f"
-							style="height: 1em;">
-					</a>
-				</div>
-			</div>
-			</li>
-		</ul>
-
-		<h2>
-			<b>
-				<font face="Roboto" size=+3 id="preprint">📜 Selected Preprints</font>
-			</b> &nbsp;
-		</h2>
-		<div class="divide"></div>
-		<ul>
-			<li><font size="4">
-				[Oct 2025] <b>MMLongCite: A Benchmark for Evaluating Fidelity of Long-Context Vision-Language Models</b>
-				<br/>
-				Keyan Zhou, <b class="myself">Zecheng Tang</b>, Lingfeng Ming, Guanghao Zhou, Qiguang Chen, Dan Qiao, Zheming Yang, Libo Qin, Minghui Qiu, Juntao Li, Min Zhang
-				</font><br>
-				<div style="display: inline-block; margin-top:0.5%; width:50%">
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://arxiv.org/abs/2510.13276">
-							<font size="5"><i class="ai ai-arxiv ai-1x"></i></font>&nbsp;<img alt="Static Badge"
-								src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-						</a>
-					</div>
-					&nbsp;
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://github.com/jiqimaoke/MMLongCite">
-							<font size="2"><i class="fa fa-github-alt  fa-2x" aria-hidden="true"></i></font>&nbsp;<img
-								alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f"
-								style="height: 1em;">
-						</a>
-					</div>
-				</div>
-			</li>
-
-			<li><font size="4">
-				[Oct 2025] <b>LongRM: Revealing and Unlocking the Context Boundary of Reward Modeling</b>
-				<br/>
-				<b class="myself">Zecheng Tang</b>, Baibei Ji, Quantong Qiu, Haitian Wang, Xiaobo Liang, Juntao Li, Min Zhang
-				</font><br>
-				<div style="display: inline-block; margin-top:0.5%; width:50%">
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://arxiv.org/abs/2510.06915">
-							<font size="5"><i class="ai ai-arxiv ai-1x"></i></font>&nbsp;<img alt="Static Badge"
-								src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-						</a>
-					</div>
-					&nbsp;
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://github.com/LCM-Lab/LongRM">
-							<font size="2"><i class="fa fa-github-alt  fa-2x" aria-hidden="true"></i></font>&nbsp;<img
-								alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f"
-								style="height: 1em;">
-						</a>
-					</div>
-				</div>
-			</li>
-
-			<li><font size="4">
-				[Oct 2025] <b>Revisiting Long-Context Modeling from a Context Denoising Perspective</b>
-				<br/>
-				<b class="myself">Zecheng Tang</b>, Baibei Ji, Juntao Li, Lijun Wu, Haijia Gui, Min Zhang
-				</font><br>
-				<div style="display: inline-block; margin-top:0.5%; width:50%">
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://arxiv.org/abs/2510.05862">
-							<font size="5"><i class="ai ai-arxiv ai-1x"></i></font>&nbsp;<img alt="Static Badge"
-								src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-						</a>
-					</div>
-					&nbsp;
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://github.com/LCM-Lab/context-denoising-training">
-							<font size="2"><i class="fa fa-github-alt  fa-2x" aria-hidden="true"></i></font>&nbsp;<img
-								alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f"
-								style="height: 1em;">
-						</a>
-					</div>
-				</div>
-			</li>
-
-			<li><font size="4">
-				[Aug 2025] <b>Qwen-Image Technical Report</b>
-				<br/>
-				<b class="myself">Core Contributor*</b> (of Qwen Team, Tongyi Qwen Lab): Model Arch / (Pre-/Post-)train Infra / Post-train
-				</font><br>
-				<div style="display: inline-block; margin-top:0.5%; width:50%">
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://arxiv.org/abs/2508.02324">
-							<font size="5"><i class="ai ai-arxiv ai-1x"></i></font>&nbsp;<img alt="Static Badge"
-								src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-						</a>
-					</div>
-					&nbsp;
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://github.com/QwenLM/Qwen-Image">
-							<font size="2"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></font>&nbsp;<img
-							alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f"
-							style="height: 1em;">
-						</a>
-					</div>
-				</div>
-			</li>
-
-			<li><font size="4">
-				[Jul 2025] <b>LOOM-Scope: LOng-cOntext Model evaluation framework</b>
-				<br/>
-				<b class="myself">Zecheng Tang</b>, Haitian Wang, Quantong Qiu, Baibei Ji, Ruoxi Sun, Keyan Zhou, Juntao Li, Min Zhang
-				</font><br>
-				<div style="display: inline-block; margin-top:0.5%; width:50%">
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://arxiv.org/abs/2507.04723">
-							<font size="5"><i class="ai ai-arxiv ai-1x"></i></font>&nbsp;<img alt="Static Badge"
-								src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-						</a>
-					</div>
-					&nbsp;
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://loomscope.github.io/">
-							<font size="2"><i class="fa fa-github-alt  fa-2x" aria-hidden="true"></i></font>&nbsp;<img
-								alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f"
-								style="height: 1em;">
-						</a>
-					</div>
-				</div>
-			</li>
-
-			<li><font size="4">
-				[Feb 2025] <b>Step-Video-T2V Technical Report: The Practice, Challenges, and Future of Video Foundation Model</b>
-				<br/>
-				<b class="myself">Contributor*</b> (of Sora Video Foundation Model Team, StepFun): Inference Augmentation / Evaluation
-				</font><br>
-				<div style="display: inline-block; margin-top:0.5%; width:50%">
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://arxiv.org/pdf/2502.10248">
-							<font size="5"><i class="ai ai-arxiv ai-1x"></i></font>&nbsp;<img alt="Static Badge"
-								src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-						</a>
-					</div>
-					&nbsp;
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://github.com/stepfun-ai/Step-Video-T2V">
-							<font size="2"><i class="fa fa-github-alt  fa-2x" aria-hidden="true"></i></font>&nbsp;<img
-								alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f"
-								style="height: 1em;">
-						</a>
-					</div>
-				</div>
-			</li>
-			
-			<li><font size="4">
-				[Aug 2024] <b>MemLong: Memory-Augmented Retrieval for Long Text Modeling</b>
-				<br/>
-					Weijie Liu*, <b class="myself">Zecheng Tang*</b>, Juntao Li, Kehai Chen, Min Zhang
-				</font><br>
-				<div style="display: inline-block; margin-top:0.5%; width:50%">
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://arxiv.org/pdf/2408.16967">
-							<font size="5"><i class="ai ai-arxiv ai-1x"></i></font>&nbsp;<img alt="Static Badge"
-								src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-						</a>
-					</div>
-					&nbsp;
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://github.com/Bui1dMySea/MemLong">
-							<font size="2"><i class="fa fa-github-alt  fa-2x" aria-hidden="true"></i></font>&nbsp;<img
-								alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f"
-								style="height: 1em;">
-						</a>
-					</div>
-				</div>
-			</li>
-			<li><font size="4">
-				[Oct 2023 & NLPCC 2023 (CCF C)] <b>Beyond Hard Samples: Robust and Effective Grammatical Error Correction with Cycle Self-Augmenting</b>
-			
-				<br/>
-				
-					<b class="myself">Zecheng Tang</b>, Kaiqi Feng, Juntao Li, Min Zhang
-				</font><br>
-				<div style="display: inline-block; margin-top:0.5%; width:50%">
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://arxiv.org/abs/2310.13321">
-							<font size="5"><i class="ai ai-arxiv ai-1x"></i></font>&nbsp;<img alt="Static Badge"
-								src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-						</a>
-					</div>
-					&nbsp;
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://github.com/ZetangForward/CSA-GEC">
-							<font size="2"><i class="fa fa-github-alt  fa-2x" aria-hidden="true"></i></font>&nbsp;<img
-								alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f"
-								style="height: 1em;">
-						</a>
-					</div>
-				</div>
-			</li>
-			<li><font size="4">
-				[Mar 2023] <b>Visual chatgpt: Talking, drawing and editing with visual foundation models</b>
-				<br/>
-				Chenfei Wu, Shengming Yin, Weizhen Qi, Xiaodong Wang, <b class="myself">Zecheng Tang</b>, Nan Duan
-				</font><br>
-				<div style="display: inline-block; margin-top:0.5%; width:50%">
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://arxiv.org/abs/2303.04671">
-							<font size="5"><i class="ai ai-arxiv ai-1x"></i></font>&nbsp;<img alt="Static Badge"
-								src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-						</a>
-					</div>
-					&nbsp;
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://github.com/chenfei-wu/TaskMatrix">
-							<font size="2"><i class="fa fa-github-alt  fa-2x" aria-hidden="true"></i></font>&nbsp;<img
-								alt="Static Badge" src="https://img.shields.io/badge/Code/data-d9534f"
-								style="height: 1em;">
-						</a>
-					</div>
-				</div>
-			</li>
-			<!-- <li><font size="4">
-				[CCL 2021] <b>Chinese grammatical error correction enhanced by data augmentation from word and character levels</b>
-				<br/>
-					<b class="myself">Zecheng Tang</b>, Yixin Ji, Yibo Zhao, Junhui Li
-				</font><br>
-				<div style="display: inline-block; margin-top:0.5%; width:50%">
-					<div style="display: inline-block; margin-top:0%; margin-left: -1.1%;">
-						<a href="https://scholar.google.com/scholar?cluster=6541198927486163387&hl=en&oi=scholarr">
-							<font size="5"><i class="ai ai-arxiv ai-1x"></i></font>&nbsp;<img alt="Static Badge"
-								src="https://img.shields.io/badge/Arxiv-f0ad4e" style="height: 1em;">
-						</a>
-					</div>
-				</div>
-			</li> -->
-		</ul>
-	</div>
-	<br />
-
-	<div style="margin-top: -1em;" id="awards">
-		<h2>
-			<b>
-				<font face="Roboto" size=+3>🎖️ Scholarship & Honors</font>
-			</b>
-		</h2>
-		<!-- <hr /> -->
-		<div class="divide"></div>
-		<ul>
-
-			<li>
-				<font face=" Comic Sans MS" size="4"><b>Top Reviewer</b>, Neurips Program Committee, 2025.
-					<br>
-<!-- 					<i>Rank 1/380, School of Computer Science and Technology</i> -->
-				</font>
-			</li>
-			
-			<li>
-				<font face=" Comic Sans MS" size="4"><b>National Scholarship</b>, Soochow University, Oct 2025.
-					<br>
-<!-- 					<i>Rank 1/380, School of Computer Science and Technology</i> -->
-				</font>
-			</li>
-
-			<li>
-				<font face=" Comic Sans MS" size="4"><b>Star of Tomorrow</b>, MSRA, Feb 2024.
-					<br>
-<!-- 					<i>Rank 1/380, School of Computer Science and Technology</i> -->
-				</font>
-			</li>
-		
-			<li>
-				<font face=" Comic Sans MS" size="4"><b>Outstanding Graduate and Honorary Graduate</b>, Soochow University, Jun 2022.
-					<br>
-					<i>Rank 1/380, School of Computer Science and Technology</i>
-				</font>
-			</li>
-		
-			<li>
-				<font face=" Comic Sans MS" size="4"><b>Huawei Scholarship</b>, Huawei, Jun 2022.
-					<br>
-					<i>Top 5% Undergraduate</i>
-				</font>
-			</li>
-		</ul>
-	</div>
-	<br />
-
-	<div style="margin-top: -1em;" id="talk">
-		<h2>
-			<b>
-				<font face="Roboto" size=+3>🎤 Talk</font>
-			</b>
-		</h2>
-		<!-- <hr /> -->
-		<div class="divide"></div>
-
-		<ul>
-			<li>
-				<font face=" Comic Sans MS" size="4"><b>Leveraging Large Language Models for Tool Invocation</b>, OPPO Seminar, Apr 2023.
-				</font>
-			</li>
-			<li>
-				<font face=" Comic Sans MS" size="4"><b>Long Context Modeling in LLMs: Advances and Challenges</b>, NLPCC2024 Tutorial (CCF C), Nov 2024. <font size="4.5" face="Comic Sans MS">[<a href="https://github.com/ZetangForward/NLPCC2024-Long-context-modeling" target="_self">Slides</a>]</font>
-				</font>
-			</li>
-		</ul>
-	</div>
-	<br/>
-
-	<div style="margin-top: -1em;" id="service">
-		<h2>
-			<b>
-				<font face="Roboto" size=+3>💻 Service</font>
-			</b>
-		</h2>
-		<!-- <hr /> -->
-		<div class="divide"></div>
-		<ul>
-			<li>
-				<b>
-					<font size="4.5" face="Comic Sans MS">Reviewer
-				</b>
-				: ACL/EMNLP/ARR 2023-2026; ICML/NeurIPS/ICLR 2024-2026; CVPR 2025,2026; AAAI 2023-2025
-				</font>
-			</li>
-		</ul>
-	</div>
-
-	<br />
-	<div id="copyright" align="right">
-		<br />
-		<br />
-		<p>Template From &copy; 2024 Huanxuan Liao</p>
-	</div>
-	<br />
+    <div class="container">
+        <img class="portrait" src="assets/img/profile.jpg" alt="Zecheng Tang" />
+        <h1>Zecheng Tang (汤泽成)</h1>
+        
+        <hr />
+        
+        <div class="nav-links">
+            Email: <a href="mailto:zecheng.tang@foxmail.com">zecheng.tang@foxmail.com</a><br/>
+            GitHub & Project: <a href="https://github.com/ZetangForward" target="_blank">https://github.com/ZetangForward</a> | <a href="https://github.com/LCM-Lab/" target="_blank">https://github.com/LCM-Lab</a>
+
+        </div>
+        
+        <hr />
+        
+        <div class="nav-links">
+            <a href="#bio">Biography</a> |
+            <a href="#experience">Experience</a> |
+            <a href="#publications">Publications</a> |
+            <a href="#awards">Honors</a> |
+            <a href="#talk">Talks</a> |
+            <a href="#service">Service</a> |
+            <a href="https://scholar.google.com/citations?user=HUDkBMUAAAAJ" target="_blank">Google Scholar</a> |
+            <a href="assets/personal_cv.pdf" target="_blank">CV (PDF)</a> 
+        </div>
+
+        <hr />
+
+        <h2 id="bio">Brief Bio</h2>
+
+        <p>
+            I am currently a fourth-year PhD candidate at Soochow University (<em>exp. grad. Jul 2027</em>), supervised by <a href="https://lijuntaopku.github.io/" target="_blank">Assoc. Prof. Juntao Li</a> and <a href="https://zhangminsuda.github.io/Pesonel-Information/" target="_blank">Prof. Min Zhang</a>.
+            My research focuses on <strong>Long-context Modeling</strong>, <strong>Machine Learning</strong> and <strong>Optimization of Foundation Model</strong>.
+            My contributions include but not limited to:
+            <a href="https://github.com/QwenLM/Qwen-Image" target="_blank">Qwen-Image</a>, 
+            <a href="https://github.com/chenfei-wu/TaskMatrix" target="_blank">Visual ChatGPT</a>, 
+            <a href="https://github.com/ProjectNUWA" target="_blank">NUWA</a>-series (<a href="https://github.com/ProjectNUWA/LayoutNUWA" target="_blank">LayoutNUWA</a> / <a href="https://github.com/ProjectNUWA/StrokeNUWA" target="_blank">LayoutNUWA</a>), 
+            and the <a href="https://github.com/OpenNLG" target="_blank">OpenBA</a>-series (<a href="https://github.com/OpenNLG/OpenBA" target="_blank">OpenBA-V1</a> / <a href="https://github.com/OpenNLG/OpenBA-v2" target="_blank">OpenBA-V2</a>).
+        </p>
+        <p>
+            I have been also leading the <a href="https://github.com/LCM-Lab/" target="_blank">LCM-Lab</a>, an academic research group dedicated to algorithm optimization and infrastructure building (covering data, evaluation, and training platforms) for scalable long-context modeling, with <a href="https://github.com/LCM-Lab/" target="_blank">9 publications</a> in this field.
+            Please see <a href="https://scholar.google.com/citations?user=HUDkBMUAAAAJ&hl=zh-CN" target="_blank">Scholar</a> for a complete list.
+        </p>
+
+        <p>
+            Before that, I obtained my Bachelor's degree in Software Engineering from Soochow University (ranked 1st / 380).
+            My formal name is Zecheng Tang (汤泽成), and you may call me <em>Zecheng (/zə'tʃɛŋ/)</em>, or simply <em>Tang</em>.
+        </p>
+
+        <hr />
+
+        <h2 id="experience">Work Experience</h2>
+        
+        <div class="experience-grid">
+            <div class="experience-item">
+                <span class="date-badge">2025.02 - 2026.01</span><br/>
+                <span class="exp-title"><a href="https://github.com/QwenLM" target="_blank">Alibaba Cloud (Tongyi-Qwen)</a></span>
+                <div class="exp-role">Research Intern</div>
+                <span class="exp-rep">
+                    Rep. Work: <strong><a href="https://github.com/QwenLM/Qwen-Image" target="_blank">Qwen-Image</a></strong> (tech report)<br/>
+                    (Foundation Generative Model & AI-Infra & Post-training)
+                </span>
+            </div>
+
+            <div class="experience-item">
+                <span class="date-badge">2024.10 - 2025.01</span><br/>
+                <span class="exp-title"><a href="https://opendatalab.github.io/index.html" target="_blank">Shanghai AI Lab (OpenDataLab)</a></span>
+                <div class="exp-role">Academic Collaboration</div>
+                <span class="exp-rep">
+                    Rep. Work: <strong><a href="https://github.com/LCM-Lab/context-denoising-training" target="_blank">CDT</a></strong> (ICLR 2026)<br/>
+                    (Long-context Modeling and Optimization)
+                </span>
+            </div>
+
+            <div class="experience-item">
+                <span class="date-badge">2024.05 - 2024.09</span><br/>
+                <span class="exp-title"><a href="https://platform.stepfun.ai/" target="_blank">StepFun AI (Sora Team)</a></span>
+                <div class="exp-role">Research Intern</div>
+                <span class="exp-rep">
+                    Rep. Work: <strong><a href="https://github.com/stepfun-ai/Step-Video-T2V" target="_blank">Step-Video-T2V</a></strong> (tech report) <br/>
+                    (Video Generation & Evaluation)
+                </span>
+            </div>
+
+            <div class="experience-item">
+                <span class="date-badge">2023.01 - 2024.02</span><br/>
+                <span class="exp-title"><a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/" target="_blank">Microsoft Research Asia (NLC Group)</a></span>
+                <div class="exp-role">Research Intern</div> 
+                <span class="exp-rep">
+                    Rep. Work: <strong><a href="https://github.com/chenfei-wu/TaskMatrix" target="_blank">Visual ChatGPT</a></strong> (Github Star 34K), <strong><a href="https://github.com/ProjectNUWA/LayoutNUWA" target="_blank">LayoutNUWA</a></strong> (ICLR2024), <strong><a href="https://github.com/ProjectNUWA/StrokeNUWA" target="_blank">StrokeNUWA</a></strong> (ICML2025)<br/>
+                    (Symbolic Representation in Multimodal LLMs)
+                </span>
+            </div>
+        </div>
+        <hr />
+
+        <h2 id="publications">Selected Conference & Journal</h2>
+        <p>
+            * indicates equal contribution; Full list: <a href="https://scholar.google.com/citations?user=HUDkBMUAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a>; Rank system: <a href="https://www.ccf.org.cn/Academic_Evaluation/By_category/" target="_blank">CCF (China Computer Federation)</a> 
+        </p>
+        <details>
+            <summary style="cursor: pointer; color: #1a0dab; font-weight: bold; margin-bottom: 10px;">
+                [Click to view / hide full list]
+            </summary>
+        
+            <div style="margin-bottom: 25px; border-left: 3px solid #eee; padding-left: 15px;">
+                <h3 style="font-size: 1.1em; color: #444; margin-top: 0;"> Long-context Modeling & Evaluation</h3>
+                <ul style="list-style-type: circle;">
+                    <li>
+                        <strong>Revisiting Long-Context Modeling from a Context Denoising Perspective</strong><br/>
+                        <span class="me">Zecheng Tang</span>, Baibei Ji, Juntao Li, Lijun Wu, Haijia Gui, Min Zhang.<br>
+                        <em>ICLR 2026, CCF A</em>.<br/>
+                        <a href="https://arxiv.org/pdf/2510.05862" target="_blank">[Arxiv]</a> <a href="https://github.com/LCM-Lab/context-denoising-training" target="_blank">[Code]</a>
+                    </li>
+                    <li>
+                        <strong>L-CiteEval: Do Long-Context Models Truly Leverage Context for Responding?</strong><br/>
+                        <span class="me">Zecheng Tang</span>, Keyan Zhou, Juntao Li, Baibei Ji, Jianye Hou, Min Zhang.<br/>
+                        <em>ACL 2025 (Long Main), CCF A</em>.<br/>
+                        <a href="https://aclanthology.org/2025.acl-long.263/" target="_blank">[Paper]</a> <a href="https://github.com/ZetangForward/L-CITEEVAL" target="_blank">[Code]</a>
+                    </li>
+
+                    <li>
+                        <strong>LOGO -- Long cOntext aliGnment via efficient preference Optimization</strong><br/>
+                        <span class="me">Zecheng Tang</span>, Zechen Sun, Juntao Li, Qiaoming Zhu, Min Zhang.<br/>
+                        <em>ICML 2025, CCF A</em>.<br/>
+                        <a href="https://openreview.net/pdf?id=FSlfoBIctk" target="_blank">[Paper]</a> <a href="https://github.com/ZetangForward/LCM_Stack" target="_blank">[Code]</a>
+                    </li>
+
+                    <li>
+                        <strong>Open-ended long text generation via masked language modeling</strong><br/>
+                        Xiaobo Liang*, <span class="me">Zecheng Tang*</span>, Juntao Li, Min Zhang.<br/>
+                        <em>ACL 2023 (Long Main), CCF A</em>.<br/>
+                        <a href="https://aclanthology.org/2023.acl-long.13.pdf" target="_blank">[Paper]</a> <a href="https://github.com/ZetangForward/OpenLTG-MLM" target="_blank">[Code]</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div style="margin-bottom: 25px; border-left: 3px solid #eee; padding-left: 15px;">
+                <h3 style="font-size: 1.1em; color: #444; margin-top: 0;"> Generative Model</h3>
+                <ul style="list-style-type: circle;">
+                    <li>
+                        <strong>StrokeNUWA: Tokenizing Strokes for Vector Graphic Synthesis</strong><br/>
+                        <span class="me">Zecheng Tang</span>, Chenfei Wu, Zekai Zhang, Mingheng Ni, Juntao Li, Nan Duan, et al.<br/>
+                        <em>ICML 2024, CCF A</em>.<br/>
+                        <a href="https://openreview.net/pdf?id=eVlx8DaG9h" target="_blank">[Paper]</a> <a href="https://github.com/ProjectNUWA/StrokeNUWA" target="_blank">[Code]</a>
+                    </li>
+                    <li>
+                        <strong>LayoutNUWA: Revealing the hidden layout expertise of large language models</strong><br/>
+                        <span class="me">Zecheng Tang</span>, Chenfei Wu, Juntao Li, Nan Duan.<br/>
+                        <em>ICLR 2024, CCF A</em>.<br/>
+                        <a href="https://arxiv.org/abs/2309.09506" target="_blank">[Paper]</a> <a href="https://github.com/ProjectNUWA/LayoutNUWA" target="_blank">[Code]</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div style="margin-bottom: 25px; border-left: 3px solid #eee; padding-left: 15px;">
+                <h3 style="font-size: 1.1em; color: #444; margin-top: 0;"> Foundation Model (& Optimization)</h3>
+                <ul style="list-style-type: circle;">
+                    <li>
+                        <strong>OpenBA: An Open-sourced 15B Bilingual Asymmetric seq2seq Model</strong><br/>
+                        Juntao Li*, <span class="me">Zecheng Tang*</span>, Yuyang Ding*, Pinzheng Wang*, Min Zhang, et al.<br/>
+                        <em>SCIS 2025, CCF A</em>.<br/>
+                        <a href="http://scis.scichina.com/en/2025/192103.pdf" target="_blank">[Paper]</a> <a href="https://github.com/OpenNLG/OpenBA" target="_blank">[Code]</a>
+                    </li>
+
+                    <li>
+                        <strong>CMD: a framework for Context-aware Model self-Detoxification</strong><br/>
+                        <span class="me">Zecheng Tang</span>, Keyan Zhou, Juntao Li, Yuyang Ding, Pinzheng Wang, Min Zhang, et al.<br/>
+                        <em>EMNLP 2024 (Long Main), CCF B</em>.<br/>
+                        <a href="https://aclanthology.org/2024.emnlp-main.115.pdf" target="_blank">[Paper]</a> <a href="https://github.com/ZetangForward/CMD-Context-aware-Model-self-Detoxification" target="_blank">[Code]</a>
+                    </li>
+
+                    <li>
+                        <strong>Improving temporal generalization of pre-trained language models with lexical semantic change</strong><br/>
+                        Zhaochen Su*, <span class="me">Zecheng Tang*</span>, Xinyan Guan, Juntao Li, Lijun Wu, Min Zhang.<br/>
+                        <em>EMNLP 2022 (Long Main), CCF B</em>.<br/>
+                        <a href="https://aclanthology.org/2022.emnlp-main.428.pdf" target="_blank">[Paper]</a> <a href="https://github.com/zhaochen0110/LMLM" target="_blank">[Code]</a>
+                    </li>
+                </ul>
+            </div>
+        
+        </details>
+        <hr />
+
+        <h2 id="preprints">Selected Preprint</h2>
+        <p>
+            * indicates equal contribution; Full list: <a href="https://scholar.google.com/citations?user=HUDkBMUAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a>.
+        </p>  
+        <details>
+            <summary style="cursor: pointer; color: #1a0dab; font-weight: bold; margin-bottom: 10px;">
+                [Click to view / hide full list]
+            </summary>
+
+            <div style="margin-bottom: 25px; border-left: 3px solid #eee; padding-left: 15px;">
+                <h3 style="font-size: 1.1em; color: #444; margin-top: 0;"> Technical Report</h3>
+                <ul style="list-style-type: circle;">
+                    <li>
+                        <strong>Qwen-Image Technical Report</strong><br/>
+                        <span class="me">Core Contributor*</span><br> 
+                        [Aug 2025] <a href="https://arxiv.org/pdf/2508.02324" target="_blank">[Arxiv]</a> <a href="https://github.com/QwenLM/Qwen-Image" target="_blank">[Code]</a>
+                    </li>
+                    <li>
+                        <strong>Step-Video-T2V Technical Report</strong><br/>
+                        <span class="me">Contributor*</span><br>
+                        [Feb 2025] <a href="https://arxiv.org/pdf/2502.10248" target="_blank">[Arxiv]</a> <a href="https://github.com/stepfun-ai/Step-Video-T2V" target="_blank">[Code]</a>
+                    </li>
+                    <li>
+                        <strong>Visual chatgpt: Talking, drawing and editing with visual foundation models</strong><br/>
+                        Chenfei Wu, Shengming Yin, Weizhen Qi, Xiaodong Wang, <span class="me">Zecheng Tang</span>, Nan Duan.<br/>
+                        [Mar 2023] <a href="https://arxiv.org/pdf/2303.04671" target="_blank">[Paper]</a> <a href="https://github.com/chenfei-wu/TaskMatrix" target="_blank">[Code]</a>
+                    </li>
+                </ul>   
+            </div>
+
+            <div style="margin-bottom: 25px; border-left: 3px solid #eee; padding-left: 15px;">
+                <h3 style="font-size: 1.1em; color: #444; margin-top: 0;"> Long-context Modeling & Evaluation</h3>
+                <ul style="list-style-type: circle;">
+                <li>
+                    <strong>MemoryRewardBench: Benchmarking Reward Models for Long-Term Memory Management in Large Language Models</strong><br/>
+                    <span class="me">Zecheng Tang</span>, Baibei Ji, Ruoxi Sun, Haitian Wang, Haiya Xiang, Juntao Li, Min Zhang, et al.<br>
+                    [Jan 2026] <a href="https://arxiv.org/pdf/2601.11969" target="_blank">[Arxiv]</a> <a href="https://github.com/LCM-Lab/MemRewardBench" target="_blank">[Code]</a>
+                </li>
+                <li>
+                    <strong>MMLongCite: A Benchmark for Evaluating Fidelity of Long-Context Vision-Language Models</strong><br/>
+                    Keyan Zhou, <span class="me">Zecheng Tang</span>, Libo Qin, Juntao Li, Min Zhang, et al.<br>
+                    [Oct 2025] <a href="https://arxiv.org/pdf/2510.13276" target="_blank">[Arxiv]</a> <a href="https://github.com/jiqimaoke/MMLongCite" target="_blank">[Code]</a>
+                </li>
+                <li>
+                    <strong>LongRM: Revealing and Unlocking the Context Boundary of Reward Modeling</strong><br/>
+                    <span class="me">Zecheng Tang</span>, Baibei Ji, Quantong Qiu, Haitian Wang, Xiaobo Liang, Juntao Li, Min Zhang.<br>
+                    [Oct 2025] <a href="https://arxiv.org/pdf/2510.06915" target="_blank">[Arxiv]</a> <a href="https://github.com/LCM-Lab/LongRM" target="_blank">[Code]</a>
+                </li>
+                
+                <li>
+                    <strong>LOOM-Scope: LOng-cOntext Model evaluation framework</strong><br/>
+                    <span class="me">Zecheng Tang</span>, Haitian Wang, Quantong Qiu, Baibei Ji, Ruoxi Sun, Keyan Zhou, Juntao Li, Min Zhang<br> 
+                    [Jul 2025] <a href="https://arxiv.org/abs/2507.04723" target="_blank">[Arxiv]</a> <a href="https://github.com/LCM-Lab/LOOM-Eval" target="_blank">[Code]</a>
+                </li>
+                </ul>
+            </div>
+        
+        
+        </details>
+        <hr />
+
+        <h2 id="awards">Honor & Award</h2>
+        <p>
+            Key terminology translation reference: <a href="https://www.xoveexu.com/project/fund-translation" target="_blank">Chinese Fund Translation.</a> 
+        </p>
+        <ul>
+            <li>2025: <strong>Young Elite Scientists Sponsorship Program (Doctoral Student Special Plan)</strong>, China Association for Science and Technology <a href="https://english.cast.org.cn/" target="_blank">(CAST)</a></li>
+            <li>2025: <strong>Top Reviewer</strong>, NeurIPS Program Committee.</li>
+            <li>2025: <strong>National Scholarship</strong>, Soochow University.</li>
+            <li>2024: <strong>Star of Tomorrow</strong>, Microsoft Research Asia.</li>
+            <li>2022: <strong>Outstanding Graduate (ranked 1st/380)</strong>, Soochow University.</li>
+            <li>2022: <strong>Huawei Scholarship (Top 5% Undergraduate)</strong>, Huawei Inc.</li>
+        </ul>
+        <hr />
+
+        <h2 id="talk">Talk</h2>
+        <ul>
+            <li>[Nov 2024] <strong>Long Context Modeling in LLMs: Advances and Challenges</strong>, NLPCC 2024 Tutorial. <a href="https://github.com/LCM-Lab/Awesome-Long-Context-Model-Source-Collection/blob/main/NLPCC2024-Long_context_model.pdf" target="_blank">[Slides]</a></li>
+            <li>[Apr 2023] <strong>Leveraging Large Language Models for Tool Invocation</strong>, OPPO (closed-door seminar).</li>
+        </ul>
+
+        <hr />
+
+        <h2 id="service">Service</h2>
+        I have been serving as a reviewer for the following conferences:
+        <ul>
+            <li><strong>Natural Language Processing</strong>: {ACL, EMNLP, ARR} (2022 - 2026), NLPCC (2023)</li>
+            <li><strong>Machine Learning</strong>: {ICML, NeurIPS, ICLR} (2024 - 2026)</li>
+            <li><strong>Computer Vision</strong>: CVPR (2025, 2026), ICCV (2026)</li>
+            <li><strong>Artificial Intelligence</strong>: AAAI (2022, 2024)</li>
+        
+        </ul>
+
+        <hr />
+        <div style="text-align: right; font-size: 0.9em; color: #888;">
+            Homepage last updated: 2026-01 | CV last updated: 2025-12 | Template adapted from <a href="https://dpkingma.com/" target="_blank">dpkingma.com</a>
+        </div>
+
+    </div>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.scrollY; 
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = scrollTop / docHeight; 
+            const hueShift = scrollPercent * 90; 
+            const startHue = 359 - hueShift; 
+            const endHue = 236 - hueShift;
+            document.body.style.backgroundImage = `linear-gradient(hsl(${startHue}, 70%, 75%), hsl(${endHue}, 68%, 80%))`;
+        });
+    </script>
 
 </body>
-
 </html>

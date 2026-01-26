@@ -1,4 +1,6 @@
-# Zetangforward.github.io
-I'm here! 😎 Personal Home Page 👋🏠
-https://zetangforward.github.io/
+# Zetangforward.github.io Update Log
+
+Prev Homepage: index_prev.html
+
+Current Homepage: index.html
 

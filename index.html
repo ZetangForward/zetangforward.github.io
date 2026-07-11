@@ -121,6 +121,16 @@
             color: #444 !important;
             text-decoration: underline !important;
         }
+
+        .exp-rep-list {
+            margin-top: 4px;
+            margin-bottom: 4px;
+            padding-left: 18px;
+        }
+
+        .exp-rep-list li {
+            margin-bottom: 2px;
+        }
         
         
         @media (max-width: 600px) {
@@ -156,6 +166,12 @@
             color: #832ac2;
             text-decoration: underline;
             font-style: italic;
+        }
+
+        .series-label {
+            font-style: italic;
+            font-weight: bold;
+            color: #832ac2;
         }
         
         .date-badge {
@@ -206,11 +222,11 @@
         <p>
             I am currently a fourth-year PhD candidate at Soochow University (<em>exp. grad. Jul 2027</em>), supervised by <a href="https://lijuntaopku.github.io/" target="_blank">Assoc. Prof. Juntao Li</a> and <a href="https://zhangminsuda.github.io/Pesonel-Information/" target="_blank">Prof. Min Zhang</a>.
             My research focuses on <strong>Machine Learning</strong> and <strong>Foundation Model (with Algorithm-Architecture co-design)</strong>.
-            My contributions include but not limited to:
-            <a href="https://github.com/QwenLM/Qwen-Image" target="_blank">Qwen-Image / Qwen-Image-2.0</a>, 
+            My contributions include but not limited to: <strong>(1) Foundation Model:</strong>
+            <span class="series-label">Qwen-Image-series:</span>
+            (<a href="https://github.com/QwenLM/Qwen-Image" target="_blank"> Qwen-Image</a> / <a href="https://arxiv.org/abs/2605.10730" target="_blank">Qwen-Image-2.0</a> / <a href="https://arxiv.org/abs/2606.27608" target="_blank">Qwen-Image-2.0-RL</a> ) and  <span class="series-label">OpenBA-series:</span> ( <a href="https://github.com/OpenNLG/OpenBA" target="_blank">OpenBA-V1</a> / <a href="https://github.com/OpenNLG/OpenBA-v2" target="_blank">OpenBA-V2</a> ); and <strong>(2) AIGC:</strong> 
             <a href="https://github.com/chenfei-wu/TaskMatrix" target="_blank">Visual ChatGPT</a>, 
-            <a href="https://github.com/ProjectNUWA" target="_blank">NUWA</a>-series (<a href="https://github.com/ProjectNUWA/LayoutNUWA" target="_blank">LayoutNUWA</a>/<a href="https://github.com/ProjectNUWA/StrokeNUWA" target="_blank">StrokeNUWA</a>), 
-            and <a href="https://github.com/OpenNLG" target="_blank">OpenBA</a>-series (<a href="https://github.com/OpenNLG/OpenBA" target="_blank">OpenBA-V1</a>/<a href="https://github.com/OpenNLG/OpenBA-v2" target="_blank">OpenBA-V2</a>).
+            <span class="series-label">NUWA-series: </span>( <a href="https://github.com/ProjectNUWA/LayoutNUWA" target="_blank">LayoutNUWA</a> / <a href="https://github.com/ProjectNUWA/StrokeNUWA" target="_blank">StrokeNUWA</a> ).
         </p>
         <p>
             I have been also conducting research on algorithm optimization (model architecture, post-training) and infrastructure building (evaluation, training platforms) for <strong>scalable Long Sequence Modeling and Aligning</strong> at <a href="https://github.com/LCM-Lab/" target="_blank">LCM-Lab</a>, with <a href="https://github.com/LCM-Lab/" target="_blank">10 publications</a> in this field.
@@ -232,9 +248,14 @@
                 <span class="exp-title"><a href="https://github.com/QwenLM" target="_blank">Alibaba Cloud (Tongyi-Qwen)</a></span>
                 <div class="exp-role">Research Intern</div>
                 <span class="exp-rep">
-                    Rep. Work: <strong><a href="https://github.com/QwenLM/Qwen-Image" target="_blank">Qwen-Image</strong>, <strong><a href="https://arxiv.org/abs/2605.10730" target="_blank">Qwen-Image-2.0</strong>
-                    </a><br/>
-                    (Foundation Generative Model & AI-Infra & Post-training)
+                    Rep. Work:
+                    <ul class="exp-rep-list">
+                        <li><strong><a href="https://github.com/QwenLM/Qwen-Image" target="_blank">Qwen-Image</a></strong> (core contributor; tech report)</li>
+                        <li><strong><a href="https://arxiv.org/abs/2512.15603" target="_blank">Qwen-Image-Layered</a></strong> (CVPR 2026)</li>
+                        <li><strong><a href="https://arxiv.org/abs/2605.10730" target="_blank">Qwen-Image-2.0</a></strong> (core contributor; tech report)</li>
+                        <li><strong><a href="https://arxiv.org/abs/2606.27608" target="_blank">Qwen-Image-RL</a></strong> (contributor; tech report)</li>
+                    </ul>
+                    (Foundation Model & AI-Infra & Post-training)
                 </span>
             </div>
 
@@ -243,7 +264,10 @@
                 <span class="exp-title"><a href="https://opendatalab.github.io/index.html" target="_blank">Shanghai AI Lab (OpenDataLab)</a></span>
                 <div class="exp-role">Academic Collaboration</div>
                 <span class="exp-rep">
-                    Rep. Work: <strong><a href="https://github.com/LCM-Lab/context-denoising-training" target="_blank">CDT</a></strong> (ICLR 2026)<br/>
+                    Rep. Work:
+                    <ul class="exp-rep-list">
+                        <li><strong><a href="https://github.com/LCM-Lab/context-denoising-training" target="_blank">CDT</a></strong> (ICLR 2026)</li>
+                    </ul>
                     (Long Sequence Modeling and Aligning)
                 </span>
             </div>
@@ -253,7 +277,10 @@
                 <span class="exp-title"><a href="https://platform.stepfun.ai/" target="_blank">StepFun AI (Sora Team)</a></span>
                 <div class="exp-role">Research Intern</div>
                 <span class="exp-rep">
-                    Rep. Work: <strong><a href="https://github.com/stepfun-ai/Step-Video-T2V" target="_blank">Step-Video-T2V</a></strong> (tech report) <br/>
+                    Rep. Work:
+                    <ul class="exp-rep-list">
+                        <li><strong><a href="https://github.com/stepfun-ai/Step-Video-T2V" target="_blank">Step-Video-T2V</a></strong> (contributor; tech report)</li>
+                    </ul>
                     (Video Generation & Evaluation)
                 </span>
             </div>
@@ -263,7 +290,12 @@
                 <span class="exp-title"><a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/" target="_blank">Microsoft Research Asia (NLC Group)</a></span>
                 <div class="exp-role">Research Intern</div> 
                 <span class="exp-rep">
-                    Rep. Work: <strong><a href="https://github.com/chenfei-wu/TaskMatrix" target="_blank">Visual ChatGPT</a></strong> (Github Star 34K), <strong><a href="https://github.com/ProjectNUWA/LayoutNUWA" target="_blank">LayoutNUWA</a></strong> (ICLR2024), <strong><a href="https://github.com/ProjectNUWA/StrokeNUWA" target="_blank">StrokeNUWA</a></strong> (ICML2025)<br/>
+                    Rep. Work:
+                    <ul class="exp-rep-list">
+                        <li><strong><a href="https://github.com/chenfei-wu/TaskMatrix" target="_blank">Visual ChatGPT</a></strong> (contributor; tech report)</li>
+                        <li><strong><a href="https://github.com/ProjectNUWA/LayoutNUWA" target="_blank">LayoutNUWA</a></strong> (ICLR2024)</li>
+                        <li><strong><a href="https://github.com/ProjectNUWA/StrokeNUWA" target="_blank">StrokeNUWA</a></strong> (ICML2025)</li>
+                    </ul>
                     (Symbolic Representation in Multimodal LLMs)
                 </span>
             </div>
@@ -403,6 +435,11 @@
                 <h3 style="font-size: 1.1em; color: #444; margin-top: 0;"> Technical Report</h3>
                 <ul style="list-style-type: circle;">
                     <li>
+                        <strong>Qwen-Image-2.0-RL Technical Report</strong><br/>
+                        <span class="me">Contributor*</span><br> 
+                        [Jun 2026] <a href="https://arxiv.org/abs/2606.27608" target="_blank">[Arxiv]</a>
+                    </li>
+                    <li>
                         <strong>Qwen-Image-2.0 Technical Report</strong><br/>
                         <span class="me">Core Contributor*</span><br> 
                         [May 2026] <a href="https://arxiv.org/abs/2605.10730" target="_blank">[Arxiv]</a> <a href="https://qwen.ai/blog?id=qwen-image-2.0" target="_blank">[Media]</a>
@@ -492,7 +529,7 @@
         <hr />
         <div style="text-align: center;">
             <div style="margin-top: 6px; font-size: 0.9em; color: #888;">
-                Homepage last updated: 2026-05 | CV last updated: 2026-02 
+                Homepage last updated: 2026-07 | CV last updated: 2026-02 
             </div>
             <br/>
             <div style="width: 33%; min-width: 180px; margin: 0 auto;">

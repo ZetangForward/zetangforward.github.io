@@ -173,6 +173,10 @@
             font-weight: bold;
             color: #832ac2;
         }
+
+        .series-label a {
+            color: inherit;
+        }
         
         .date-badge {
             font-weight: bold;
@@ -220,18 +224,18 @@
         <h2 id="bio">Brief Bio</h2>
 
         <p>
-            I am currently a final-year PhD candidate at Soochow University (<em>exp. grad. Jul 2027</em>), supervised by <a href="https://lijuntaopku.github.io/" target="_blank">Assoc. Prof. Juntao Li</a> and <a href="https://zhangminsuda.github.io/Pesonel-Information/" target="_blank">Prof. Min Zhang</a>.
-            My research focuses on <strong>Machine Learning</strong> and <strong>Foundation Model (with Algorithm-Architecture co-design)</strong>.
-            My contributions include but not limited to: <strong>(1) Foundation Model:</strong>
+            I am currently a researcher at <a href="https://www.moonshot.cn/">Moonshot AI</a>, and concurrently a final-year PhD candidate at Soochow University (<em>exp. grad. Jul 2027</em>), supervised by <a href="https://lijuntaopku.github.io/" target="_blank">Prof. Juntao Li</a> and <a href="https://zhangminsuda.github.io/Pesonel-Information/" target="_blank">Prof. Min Zhang</a>.
+            My research focuses on <strong>machine learning</strong> and <strong>long-sequence modeling (with Algorithm-Architecture co-design)</strong>.
+            My contributions include but not limited to: <strong>(1) Foundation Model: </strong><span class="series-label"><a href="https://arxiv.org/pdf/2607.24653" target="_blank">Kimi-K3</a></span>,
             <span class="series-label">Qwen-Image-series:</span>
-            (<a href="https://github.com/QwenLM/Qwen-Image" target="_blank"> Qwen-Image</a> / <a href="https://arxiv.org/abs/2605.10730" target="_blank">Qwen-Image-2.0</a> / <a href="https://arxiv.org/abs/2606.27608" target="_blank">Qwen-Image-2.0-RL</a> ) and  <span class="series-label">OpenBA-series:</span> ( <a href="https://github.com/OpenNLG/OpenBA" target="_blank">OpenBA-V1</a> / <a href="https://github.com/OpenNLG/OpenBA-v2" target="_blank">OpenBA-V2</a> ); and <strong>(2) AIGC:</strong> 
-            <a href="https://github.com/chenfei-wu/TaskMatrix" target="_blank">Visual ChatGPT</a>, 
+            (<a href="https://github.com/QwenLM/Qwen-Image" target="_blank"> Qwen-Image</a> / <a href="https://arxiv.org/abs/2605.10730" target="_blank">Qwen-Image-2.0</a> / <a href="https://arxiv.org/abs/2606.27608" target="_blank">Qwen-Image-2.0-RL</a> ) and  <span class="series-label">OpenBA-series:</span> ( <a href="https://github.com/OpenNLG/OpenBA" target="_blank">OpenBA-V1</a> / <a href="https://github.com/OpenNLG/OpenBA-v2" target="_blank">OpenBA-V2</a> ); <strong>(2) AIGC:</strong> 
+            <span class="series-label"><a href="https://github.com/chenfei-wu/TaskMatrix" target="_blank">Visual ChatGPT</a></span>, 
             <span class="series-label">NUWA-series: </span>( <a href="https://github.com/ProjectNUWA/LayoutNUWA" target="_blank">LayoutNUWA</a> / <a href="https://github.com/ProjectNUWA/StrokeNUWA" target="_blank">StrokeNUWA</a> ).
         </p>
-        <p>
+        <!-- <p>
             I have been also conducting research on algorithm optimization (model architecture, post-training) and infrastructure building (evaluation, training platforms) for <strong>scalable Long Sequence Modeling and Aligning</strong> at <a href="https://github.com/LCM-Lab/" target="_blank">LCM-Lab</a>, with <a href="https://github.com/LCM-Lab/" target="_blank">10 publications</a> in this field.
             See my <a href="https://github.com/LCM-Lab" target="_blank">project homepage</a> for a complete list.
-        </p>
+        </p> -->
 
         <p>
             Before that, I obtained my Bachelor's degree in Software Engineering from Soochow University (ranked 1st / 380).
@@ -243,6 +247,19 @@
         <h2 id="experience">Work Experience</h2>
         
         <div class="experience-grid">
+            <div class="experience-item">
+                <span class="date-badge">2026.04 - Present</span><br/>
+                <span class="exp-title"><a href="https://www.moonshot.cn/" target="_blank">Moonshot AI</a></span>
+                <div class="exp-role">Full-time Researcher</div>
+                <span class="exp-rep">
+                    Rep. Work:
+                    <ul class="exp-rep-list">
+                        <li><strong><a href="https://arxiv.org/pdf/2607.24653" target="_blank">Kimi K3</a></strong> (contributor; tech report)</li>
+                    </ul>
+                    (Foundation Model)
+                </span>
+            </div>
+
             <div class="experience-item">
                 <span class="date-badge">2025.02 - 2026.01</span><br/>
                 <span class="exp-title"><a href="https://github.com/QwenLM" target="_blank">Alibaba Cloud (Tongyi-Qwen)</a></span>
@@ -435,6 +452,10 @@
                 <h3 style="font-size: 1.1em; color: #444; margin-top: 0;"> Technical Report</h3>
                 <ul style="list-style-type: circle;">
                     <li>
+                        <strong>Kimi K3: Open Frontier Intelligence</strong><br/>
+                        [Aug 2026] <a href="https://arxiv.org/pdf/2607.24653" target="_blank">[Arxiv]</a> <a href="https://github.com/MoonshotAI/Kimi-K3" target="_blank">[Code]</a> <a href="https://www.kimi.com/blog/kimi-k3" target="_blank">[Blog]</a>
+                    </li>
+                    <li>
                         <strong>Qwen-Image-2.0-RL Technical Report</strong><br/>
                         <span class="me">Contributor*</span><br> 
                         [Jun 2026] <a href="https://arxiv.org/abs/2606.27608" target="_blank">[Arxiv]</a>
@@ -529,7 +550,7 @@
         <hr />
         <div style="text-align: center;">
             <div style="margin-top: 6px; font-size: 0.9em; color: #888;">
-                Homepage last updated: 2026-07 | CV last updated: 2026-02 
+                Homepage last updated: 2026-08 | CV last updated: 2026-02 
             </div>
             <br/>
             <div style="width: 33%; min-width: 180px; margin: 0 auto;">
